@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import Header2 from "~/components/Header2.vue";
+</script>
 
 <template>
   <div class="flex flex-col min-h-screen">
@@ -7,6 +9,7 @@
         <img src="/images/logo/logo-light.webp" alt="Creative Agency Logo" />
       </template>
     </Header>
+    <Header2 />
     <main class="flex-grow container mx-auto p-4">
       <slot />
     </main>

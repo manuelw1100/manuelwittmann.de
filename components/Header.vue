@@ -82,12 +82,12 @@ onUnmounted(() => {
         <router-link to="/" class="logo">
           <slot name="logo"></slot>
         </router-link>
-        <div class="flex space-x-4 hidden md:flex">
+        <div class="flex space-x-4 hidden md:flex h-full items-center">
           <a
             v-for="item in menu.items"
             :key="item.title"
             :href="item.to"
-            class="nav-item text-gray-800 font-bold transition-colors duration-300 hover:text-blue-400 hover:bg-blue-100 p-2 rounded"
+            class="nav-item text-gray-800 font-bold transition-colors duration-300 hover:text-blue-400 hover:bg-blue-100 flex items-center h-full px-4"
           >
             {{ item.title }}
           </a>
@@ -125,5 +125,9 @@ button {
 
 button:hover {
   @apply text-blue-400;
+}
+
+.nav-item {
+  @apply flex items-center h-full px-4;
 }
 </style>
