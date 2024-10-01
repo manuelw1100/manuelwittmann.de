@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "my-website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,9 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt": "^3.12.3",
-    "vue": "latest",
-    "feather-icons": "^4.29.1"
-  }
+    "vue": "latest"
+   }
 }
