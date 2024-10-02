@@ -33,6 +33,9 @@ watch(
     feather?.replace();
   }
 );
+
+// TODO: move this to nuxt.config.js?
+// TODO: need I installing bootstrap, or can ein remove it from package.json?
 </script>
 
 <style lang="scss">
