@@ -1,19 +1,19 @@
 <template>
   <div class="white-version spybody">
     <Header1 :navItems="navItemsMainDemo" />
-    <!-- <div class="main-page-wrapper">
-        <HerosHero1 />
-        <FeaturesFeatures1 />
-        <PortfoliosPortfolio1 />
+    <div class="main-page-wrapper">
+      <Hero1 />
+      <Features1 />
+      <!-- <PortfoliosPortfolio1 />
         <ResumesResume1 />
         <TestimonialsTestimonials1 />
         <ClientsClients1 :is-white-mode="true" />
         <PricingPricing1 />
         <BlogsBlogs1 />
-        <ContactsContact1 />
-      </div>
-      <FootersFooter2 />
-      <CommonComponents /> -->
+        <ContactsContact1 /> -->
+    </div>
+    <FootersFooter2 />
+    <!-- <CommonComponents /> -->
   </div>
 </template>
 

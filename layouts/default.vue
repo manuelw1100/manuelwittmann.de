@@ -1,6 +1,5 @@
 <template>
   <slot></slot>
-  <CommonDemosPopup />
 </template>
 
 <script setup>
