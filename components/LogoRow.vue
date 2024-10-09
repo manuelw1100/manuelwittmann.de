@@ -8,8 +8,7 @@
           </div>
         </div>
       </div>
-      <div class="row mt-4">
-        <!-- 3 columns centered with logos-->
+      <div class="row justify-content-center mt-4">
         <!-- 3 columns centered with logos-->
         <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
           <div class="logo-item">
@@ -23,14 +22,12 @@
               style="transform: scale(var(--logo-scale, 0.9));">
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center middle-element">
           <div class="logo-item">
             <img src="/public/assets/images/logo/logo-iav.svg" alt="Kunden Logo 3" class="img-fluid logo-img"
               style="transform: scale(var(--logo-scale, 1.8));">
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
