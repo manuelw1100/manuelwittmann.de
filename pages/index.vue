@@ -1,28 +1,29 @@
 <template>
   <div class="white-version spybody">
-    <Header1 :navItems="navItemsMainDemo" />
+    <Header :navItems="navItemsMainDemo" />
     <div class="main-page-wrapper">
-      <Hero1 />
-      <Features1 />
-      <!-- <PortfoliosPortfolio1 />
-        <ResumesResume1 />
-        <TestimonialsTestimonials1 />
-        <ClientsClients1 :is-white-mode="true" />
-        <PricingPricing1 />
-        <BlogsBlogs1 />
-        <ContactsContact1 /> -->
+      <Hero />
+      <Challenges />
+      <div class="section-separator"></div>
+      <MyOffers />
+      <Features />
+      <Skills />
+      <Portfolio />
+      <Testimonials />
+      <About />
+      <Contact />
     </div>
-    <FootersFooter2 />
-    <!-- <CommonComponents /> -->
+    <Footer />
   </div>
 </template>
 
 <script setup>
 useSeoMeta({
   title:
-    "Home MainDemo White Version || Inbio - Personal Portfolio Vue3 Nuxtjs Template",
-  description: "Inbio - Personal Portfolio Vue3 Nuxtjs Template",
+    "Mehr Wachstum mit maßgeschneiderten Web-Anwendungen | Dein Experte für Entwicklung & Beratung",
+  description: "Ich entwickle maßgeschneiderte, flexible und skalierbare Web-Anwendungen, die Dein Wachstum unterstützen. Profitiere von über 12 Jahren Erfahrung in der Entwicklung von digitalen Lösungen für alle Branchen.",
 });
-import Header1 from "~/components/header/Header1.vue";
+
+import Header from "~/components/header/Header.vue";
 import { navItemsMainDemo } from "~/data/menu";
 </script>
