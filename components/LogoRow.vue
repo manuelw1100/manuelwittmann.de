@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title">
             <span class="subtitle">Vertrauensvoll gearbeitet für:</span>
           </div>
         </div>
@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-//import { features } from "~/data/features";
+
 </script>
 
 <style lang="scss" scoped>
