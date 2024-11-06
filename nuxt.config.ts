@@ -11,4 +11,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public: {
+      email: process.env.NUXT_MAIL_TO,
+      phone: process.env.NUXT_PHONE,
+    },
+  },
 });
