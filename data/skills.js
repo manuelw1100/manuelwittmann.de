@@ -73,13 +73,13 @@ export const secondarySkills = [
 ];
 
 export const skills = [
-  { id: 1, title: "ReactJs", src: "/assets/images/icons/react.png" },
-  { id: 2, title: "Figma", src: "/assets/images/icons/figma.png" },
-  { id: 3, title: "XD", src: "/assets/images/icons/xd.png" },
-  { id: 4, title: "PS", src: "/assets/images/icons/photoshop.png" },
-  { id: 5, title: "vueJS", src: "/assets/images/icons/vuejs.png" },
-  { id: 6, title: "js", src: "/assets/images/icons/js.png" },
-  { id: 7, title: "angularJS", src: "/assets/images/icons/angularjs.png" },
+  { id: 1, title: "ReactJs", src: "/assets/images/icons/Vue-Logo.png" },
+  { id: 2, title: "Figma", src: "/assets/images/icons/Nuxt-Logo.png" },
+  { id: 3, title: "XD", src: "/assets/images/icons/Directus-Logo.png" },
+  { id: 4, title: "PS", src: "/assets/images/icons/Typescript-Logo.png" },
+  { id: 5, title: "vueJS", src: "/assets/images/icons/Vitest-Logo.png" },
+  { id: 6, title: "js", src: "/assets/images/icons/Cypress-Logo.png" },
+  { id: 7, title: "angularJS", src: "/assets/images/icons/Node-Logo.png" },
 ];
 export const skills2 = [
   {

@@ -2,6 +2,44 @@ export const features = [
   {
     id: 1,
     delay: 100,
+    icon: "check-circle",
+    title: "Prozess-Optimierung",
+    description:
+      "Ich optimiere und digitalisiere Workflows, die bisher in Excel oder anderen ineffizienten Systemen abgebildet waren. So können Prozesse um bis zu 70% beschleunigt werden.",
+    link: "#",
+  },
+  {
+    id: 2,
+    delay: 300,
+    icon: "check-circle",
+    title: "Datenvisualisierung",
+    description:
+      "Mit benutzerfreundlichen Dashboards stelle ich Daten übersichtlich dar, damit Sie schnell auf alle relevanten Informationen zugreifen und Probleme effizient finden und lösen können.",
+    link: "#",
+  },
+  {
+    id: 3,
+    delay: 500,
+    icon: "check-circle",
+    title: "Modernisierung",
+    description:
+      "Ich ersetze deine Altsysteme durch moderne, flexible Technologien, die einfach skalierbar sind. So sicherst du den langfristigen Erfolg und bleibst flexibel.",
+    link: "#",
+  },
+  // {
+  //   id: 3,
+  //   delay: 500,
+  //   icon: "check-circle",
+  //   title: "Entwicklung & Beratung",
+  //   description:
+  //     "Ich unterstütze bei Vue.js-basierten Web-Lösungen – gerne auch als Lead-Entwickler – und führe Ihr Projekt zum Erfolg.",
+  //   link: "#",
+  // },
+];
+export const featuresX = [
+  {
+    id: 1,
+    delay: 100,
     icon: "menu",
     title: "Web-Entwicklung",
     description:
@@ -149,24 +187,23 @@ export const features3 = [
 export const features4 = [
   {
     id: 1,
-    title: "Rehabilitation Retreat",
+    title: "Ineffiziente Systeme",
     description:
-      "A serene haven dedicated to physical and emotional recovery, providing specialized therapies.",
-    iconClass: "feather-layers",
+      "Deine Arbeitsabläufe laufen noch über Excel oder andere ineffiziente Systeme?",
+    iconClass: "feather-alert-triangle",
   },
   {
     id: 2,
-    title: "Adventure Basecamp",
+    title: "Kein Überblick über wichtige Daten",
     description:
-      "An adventure facility providing equipment, training, and guided experiences.",
-    iconClass: "feather-shield",
+      "Du hast eine Menge Daten, aber keinen klaren Überblick? Kannst wichtige Entscheidungen nicht schnell treffen?",
+    iconClass: "feather-alert-triangle",
   },
   {
     id: 3,
-    title: "Child Development",
-    description:
-      "A nurturing environment for children's growth and learning, equipped with a range of developmental programs.",
-    iconClass: "feather-heart",
+    title: "Veraltete, schwer wartbare Systeme",
+    description: "Veraltete, schwer wartbare Systeme hindern dein Wachstum?",
+    iconClass: "feather-alert-triangle",
   },
 ];
 
