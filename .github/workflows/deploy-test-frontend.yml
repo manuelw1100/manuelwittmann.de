@@ -29,6 +29,10 @@ jobs:
         env:
           RSYNC_RSH: "ssh -o StrictHostKeyChecking=yes"
 
+      - name: Copy maintenance.html to NGINX Proxy Manager directory
+        run: |
+          rsync -avz --delete /var/www/website/test/frontend/maintenance.html deployuser@mein.server.de:/srv/dockerdata/NGINXProxyManager/data/
+
       - name: Pull Docker Images on Server
         run: |
           ssh deployuser@v2202403148867261122.powersrv.de "cd /var/www/website/test/frontend && docker-compose -f test-docker-compose.yml pull"
