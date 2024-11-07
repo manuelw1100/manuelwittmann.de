@@ -1,0 +1,54 @@
+name: Deploy Frontend to Server
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  deploy_test_frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add Known Hosts
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Copy Frontend Files to Server
+        run: |
+          rsync -avz --delete --force --exclude 'node_modules' --filter='P .output' --filter='P .nuxt' ./ deployuser@v2202403148867261122.powersrv.de:/var/www/website/test/frontend
+        env:
+          RSYNC_RSH: "ssh -o StrictHostKeyChecking=yes"
+
+      - name: Pull Docker Images on Server
+        run: |
+          ssh deployuser@v2202403148867261122.powersrv.de "cd /var/www/website/test/frontend && docker-compose -f test-docker-compose.yml pull"
+
+      - name: Create .env file on server
+        run: |
+          ssh deployuser@v2202403148867261122.powersrv.de "echo '' > /var/www/website/test/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_USER=${{ secrets.NUXT_MAIL_USER }}' > /var/www/website/test/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_PASS=${{ secrets.NUXT_MAIL_PASS }}' >> /var/www/website/test/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_TO=${{ secrets.NUXT_MAIL_TO }}' >> /var/www/website/test/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_PHONE=${{ secrets.NUXT_PHONE }}' >> /var/www/website/test/frontend/.env"
+
+      - name: Build Docker without Cache
+        run: |
+          ssh deployuser@v2202403148867261122.powersrv.de "cd /var/www/website/test/frontend && docker-compose -f test-docker-compose.yml build --no-cache"
+
+      - name: Start Docker-Compose on Server
+        run: |
+          ssh deployuser@v2202403148867261122.powersrv.de "cd /var/www/website/test/frontend && docker-compose -f test-docker-compose.yml up -d"
+
+      - name: Restart Docker-Compose Services
+        run: |
+          ssh deployuser@v2202403148867261122.powersrv.de "cd /var/www/website/test/frontend && docker-compose -f test-docker-compose.yml restart"
