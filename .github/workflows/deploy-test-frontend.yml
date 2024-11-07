@@ -31,7 +31,7 @@ jobs:
 
       - name: Copy maintenance.html to NGINX Proxy Manager directory
         run: |
-          rsync -avz --delete /var/www/website/test/frontend/maintenance.html deployuser@mein.server.de:/srv/dockerdata/NGINXProxyManager/data/
+          rsync -avz --delete /var/www/website/test/frontend/maintenance.html /srv/dockerdata/NGINXProxyManager/data/
 
       - name: Pull Docker Images on Server
         run: |
