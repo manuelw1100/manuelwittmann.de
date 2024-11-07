@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.8.0",
+    "nuxt-particles": "^0.3.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "feather-icons": "^4.29.2",
@@ -18,9 +19,6 @@
     "swiper": "^11.1.14",
     "nuxt": "^3.12.3",
     "vue": "latest"
-  },
-  "devDependencies": {
-    "nuxt-particles": "^0.3.0"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.24.4"
