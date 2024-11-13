@@ -33,8 +33,9 @@
               nachhaltigen
               Erfolg.
             </p>
-            <a href="#" class="rn-btn mt-5">
-              <span>Kostenloses Kennenlern-Gespräch buchen</span>
+            <a href="#" class="rn-btn mt-5"
+              @click="openBooking('https://meet.brevo.com/manuel-wittmann/borderless?l=30-minutiges-meeting')">
+              <span>Gratis Kennenlern-Talk buchen</span>
               <i data-feather="arrow-right"></i>
             </a>
           </div>
@@ -44,6 +45,14 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useNuxtApp } from '#app'
+
+const { $openBrevoBooking } = useNuxtApp();
+
+const openBooking = (url) => {
+  $openBrevoBooking(url)
+}
+</script>
 
 <style lang="scss" scoped></style>

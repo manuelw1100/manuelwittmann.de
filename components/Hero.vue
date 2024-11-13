@@ -6,19 +6,20 @@
           <div class="order-1 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
             <div class="content">
               <div class="inner">
-                <span class="subtitle">Web-Lösungen | Beratung & Entwicklung</span>
+                <span class="subtitle">Vue | Headless-CMS | Beratung & Entwicklung</span>
                 <h1 class="title">
-                  <span>Mehr Wachstum</span> mit einer Weblösung<br />
+                  <span>Weblösungen</span> für deinen
+                  Erfolg<br />
                 </h1>
 
                 <div>
                   <p class="description">
-                    Ich entwickle deine Weblösung – <span>flexibel, skalierbar und barrierefrei</span>, damit sie für
-                    alle nutzbar
-                    ist. Perfekt für dein Wachstum. Profitiere von mehr als 12 Jahren Erfahrung.
+                    Moderne Weblösungen für Automotive & Smart Energy – maßgeschneidert und skalierbar. Profitiere von
+                    mehr als 12 Jahren Erfahrung.
                   </p>
-                  <a href="#" class="rn-btn btn-theme mt-5">
-                    <span>Kostenloses Kennenlern-Gespräch buchen</span>
+                  <a href="#" class="rn-btn btn-theme mt-5"
+                    @click="openBooking('https://meet.brevo.com/manuel-wittmann/borderless?l=30-minutiges-meeting')">
+                    <span>Gratis Kennenlern-Talk buchen</span>
                     <i data-feather="arrow-right"></i>
                   </a>
                 </div>
@@ -40,23 +41,20 @@
 </template>
 
 <script setup>
-//import Typed from "typed.js";
-import { skillsHero } from "~/data/skills";
-import { socials } from "~/data/socials";
-const typeitInstance = ref();
 
-//Erfolgreich mit einer modernen, performanten Web-Anwendung
+
+import { useNuxtApp } from '#app'
+
+const { $openBrevoBooking } = useNuxtApp();
+
+const openBooking = (url) => {
+  $openBrevoBooking(url)
+}
+
+
 
 onMounted(() => {
-  // typeitInstance.value = new Typed(".is-visible-one", {
-  //   strings: [" Developer.", " Professional Coder.", " Developer."],
-  //   typeSpeed: 26,
-  //   backSpeed: 20,
-  //   startDelay: 200,
 
-  //   loop: Infinity,
-  //   showCursor: false,
-  // });
 });
 onUnmounted(() => {
   //typeitInstance.value?.destroy();

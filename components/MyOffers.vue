@@ -6,7 +6,7 @@
           <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
             class="section-title text-left mb_md--25 mb_sm--25">
             <span class="subtitle">Schnelle Klarheit und ein Plan</span>
-            <h2 class="title">Mein Angebot</h2>
+            <h2 class="title">Gratis IT-Beratung</h2>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@
                     <div class="ft-area">
                       <div class="feature-wrapper">
                         <div v-for="(elm2, i2) in elm.features" :key="i2" class="single-feature">
-                          <i data-feather="check"></i>
+                          <i aria-hidden="true" class="rbt feather-check-square check-icon"></i>
                           <p>{{ elm2 }}</p>
                         </div>
                       </div>
@@ -43,7 +43,8 @@
                     <nuxt-img :width="800" :height="600" :src="elm.imgSrc" alt="image" />
 
                   </div>
-                  <a href="#" class="rn-btn btn-theme mt-5 d-none d-lg-inline-block">
+                  <a href="#" class="rn-btn btn-theme mt-5 d-none d-lg-inline-block"
+                    @click="openBooking('https://meet.brevo.com/manuel-wittmann/borderless?l=analsyse-gesprach')">
                     <span>Jetzt kostenlose Beratung buchen</span>
                     <i data-feather="arrow-right"></i>
                   </a>
@@ -61,11 +62,25 @@
 <script setup>
 import { portfolios2 } from "~/data/portfolios";
 const elm = portfolios2[0];
+
+import { useNuxtApp } from '#app'
+
+const { $openBrevoBooking } = useNuxtApp();
+
+const openBooking = (url) => {
+  $openBrevoBooking(url)
+}
 </script>
 
 <style lang="scss" scoped>
 .white-version .slide .thumbnail::before {
   background: none !important;
   box-shadow: none !important;
+}
+
+.check-icon {
+  color: var(--color-primary);
+  margin-right: 6px;
+  font-size: 24px;
 }
 </style>

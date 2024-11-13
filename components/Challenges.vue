@@ -25,7 +25,7 @@
               <div class="rn-service">
                 <div class="inner row">
                   <div class="icon col-2">
-                    <i aria-hidden="true" :class="`rbt ${elm.iconClass}`"></i>
+                    <i aria-hidden="true" :class="`rbt ${elm.iconClass} danger-icon`"></i>
                   </div>
                   <div class="content col-10">
                     <h4 class="title">
@@ -52,4 +52,8 @@
 import { features4 } from "~/data/features";
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.danger-icon {
+  color: var(--color-danger) !important;
+}
+</style>
