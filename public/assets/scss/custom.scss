@@ -1242,3 +1242,9 @@ header {
   min-height: 100vh;
   padding: 100px 0;
 }
+
+
+.brevo-overlay {
+  pointer-events: all; /* Popup erhält alle Events */
+  overflow: auto;      /* Ermöglicht Scrollen im Popup */
+}
