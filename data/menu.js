@@ -1,11 +1,11 @@
 export const navItemsMainDemo = [
   { id: 1, title: "Home", href: "#home" },
   { id: 2, title: "IT-Hürden", href: "#challenges" },
-  { id: 3, title: "Mein Angebot", href: "#offer" },
+  { id: 3, title: "IT-Beratung", href: "#offer" },
   { id: 4, title: "Leistungen", href: "#features" },
-  { id: 5, title: "Meine Tools", href: "#skill" },
+  { id: 5, title: "Referenzen", href: "#testimonial" },
   { id: 6, title: "Projekte", href: "#portfolio" },
-  { id: 7, title: "Referenzen", href: "#testimonial" },
+  { id: 7, title: "Meine Tools", href: "#skill" },
   { id: 8, title: "Über mich", href: "#about" },
   { id: 9, title: "Kontakt", href: "#contacts" },
 

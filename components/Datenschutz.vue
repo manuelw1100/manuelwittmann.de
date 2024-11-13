@@ -411,4 +411,9 @@ p {
   margin-bottom: 30px;
   padding-right: 10%;
 }
+
+#datenerfassung {
+  scroll-margin-top: 105px;
+  /* Passe diesen Wert an die Höhe deines Menüs an */
+}
 </style>

@@ -7,9 +7,9 @@
       <div class="section-separator"></div>
       <MyOffers />
       <Features />
-      <Skills />
-      <Portfolio />
       <Testimonials />
+      <Portfolio />
+      <Skills />
       <About />
       <Contact />
     </div>

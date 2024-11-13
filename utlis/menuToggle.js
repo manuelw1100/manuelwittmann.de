@@ -5,7 +5,12 @@ export function menuOpen(e) {
 }
 
 export function closeMobileMenu(e) {
-  e.preventDefault();
+  const target = e.target;
+  const href = target.getAttribute("href");
+
+  if (href && href.includes("#")) {
+    e.preventDefault();
+  }
   document.querySelector(".popup-mobile-menu")?.classList.remove("menu-open");
 
   document.documentElement.style.overflow = "";
