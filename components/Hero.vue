@@ -53,6 +53,9 @@
         /assets/images/about/ich_mit_pc_m.webp 480w,
         /assets/images/about/ich_mit_pc.webp 620w
       "
+                  priority
+                  fetchpriority="high"
+                  loading="eager"
                 />
               </div>
             </div>
