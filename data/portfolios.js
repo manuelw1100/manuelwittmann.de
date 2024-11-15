@@ -54,7 +54,7 @@ export const portfolios2 = [
       "Klare, umsetzbare Lösungen",
       "Persönliche Beratung auf Augenhöhe",
     ],
-    imgSrc: "/assets/images/portfolio/portfolio-offer-2.jpg",
+    imgSrc: "/assets/images/portfolio/my-offer.webp",
   },
   {
     id: 2,

@@ -20,7 +20,7 @@
               <div class="row direction">
                 <div class="col-lg-5">
                   <div class="inner">
-                    <h5 class="title">{{ elm.title }}</h5>
+                    <h3 class="title h5">{{ elm.title }}</h3>
                     <p class="discription">
                       {{ elm.description }}
                     </p>

@@ -18,6 +18,7 @@
     "bootstrap": "^5.3.3",
     "feather-icons": "^4.29.2",
     "nuxt": "^3.12.3",
+    "nuxt-booster": "^3.1.6",
     "nuxt-particles": "^0.3.0",
     "sass": "^1.79.4",
     "swiper": "^11.1.14",

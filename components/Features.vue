@@ -20,9 +20,9 @@
                 <i :data-feather="elm.icon"></i>
               </div>
               <div class="content">
-                <h4 class="title">
+                <h3 class="title">
                   <span>{{ elm.title }}</span>
-                </h4>
+                </h3>
                 <p class="description">
                   {{ elm.description }}
                 </p>

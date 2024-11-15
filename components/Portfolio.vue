@@ -31,7 +31,7 @@
                           <div class="inner">
                             <div class="heading">
                               <div class="title">
-                                <h4>{{ elm.title }}</h4>
+                                <h3>{{ elm.title }}</h3>
                                 <span>{{ elm.institution }}</span>
                               </div>
                               <!-- <div class="date-of-time">
@@ -65,7 +65,7 @@
                           <div class="inner">
                             <div class="heading">
                               <div class="title">
-                                <h4>{{ elm.title }}</h4>
+                                <h3>{{ elm.title }}</h3>
                                 <span>{{ elm.institution }}</span>
                               </div>
                               <!-- <div class="date-of-time">

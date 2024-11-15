@@ -28,9 +28,9 @@
                     <i aria-hidden="true" :class="`rbt ${elm.iconClass} danger-icon`"></i>
                   </div>
                   <div class="content col-10">
-                    <h4 class="title">
+                    <h3 class="title">
                       <a href="#"> {{ elm.title }}</a>
-                    </h4>
+                    </h3>
                     <p class="description">
                       {{ elm.description }}
                     </p>

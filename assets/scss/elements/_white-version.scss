@@ -132,7 +132,7 @@
             .heading {
               border-bottom: 1px solid #e3e9ed;
               .title {
-                h4 {
+                h4, h3 {
                   color: var(--color-body-white);
                 }
               }
@@ -148,7 +148,7 @@
               .heading {
                 border-bottom: 1px solid #ce6e6e;
                 .title {
-                  h4 {
+                  h4, h3 {
                     color: var(--color-white);
                   }
                   span {
@@ -925,7 +925,7 @@
 
     .inner {
       .content {
-        h4 {
+        h4,h3 {
           &.title {
             color: var(--color-heading-wv);
           }
@@ -1266,7 +1266,7 @@
             border-bottom: 1px solid #e3e9ed;
 
             .title {
-              h4 {
+              h4, h3 {
                 color: var(--color-heading-wv);
               }
 
@@ -1288,7 +1288,7 @@
               border-bottom: 1px solid rgb(206, 110, 110);
 
               .title {
-                h4 {
+                h4,h3 {
                   color: var(--color-white);
                 }
 
@@ -1378,7 +1378,7 @@
         font-weight: 500;
       }
 
-      h4 {
+      h4, h3 {
         &.maintitle {
           color: var(--color-heading-wv);
         }
@@ -1664,7 +1664,7 @@
       box-shadow: var(--shadow-white-3);
 
       .title-area {
-        h4 {
+        h4, h3 {
           &.title {
             color: var(--color-heading-wv);
           }

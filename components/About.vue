@@ -5,7 +5,8 @@
         <div class="col-lg-5">
           <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="image-area">
             <div class="thumbnail">
-              <nuxt-img :width="500" :height="665" src="/assets/images/about/portrait.jpg" alt="image" />
+              <nuxt-img class="custom-img" :width="500" :height="665" src="/assets/images/about/portrait.webp"
+                alt="image" />
             </div>
           </div>
         </div>
@@ -55,4 +56,26 @@ const openBooking = (url) => {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media (max-width: 992px) {
+  .thumbnail {
+    text-align: center;
+  }
+
+  .custom-img {
+    width: 70% !important;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .thumbnail {
+    text-align: center;
+  }
+
+  .custom-img {
+    width: 90% !important;
+    height: auto;
+  }
+}
+</style>

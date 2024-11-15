@@ -37,7 +37,7 @@
 ----------------------------*/
 
 /* Default  */
-
+@import "feature";
 @import "default/variables";
 @import "default/typography";
 @import "default/spacing";
@@ -47,34 +47,34 @@
 @import "default/shortcode";
 @import "default/common";
 @import "default/animations";
-@import "default/text-animation";
+/* @import "default/text-animation"; */
 
 /* Header  */
 @import "header/header";
 @import "header/nav";
 @import "header/mobilemenu";
-@import "header/rightdemo";
+/* @import "header/rightdemo"; */
 @import "header/dropdownmenu";
 
 /* Elements  */
 @import "elements/button";
-@import "elements/accordion";
+/* @import "elements/accordion"; */
 @import "elements/section-title";
 @import "elements/banner";
 @import "elements/service";
-@import "elements/modal";
+/* @import "elements/modal"; */
 @import "elements/skill";
-@import "elements/progressbar";
+/* @import "elements/progressbar"; */
 @import "elements/testimonial";
 @import "elements/clients";
-@import "elements/pricing";
+/* @import "elements/pricing"; */
 @import "elements/contact";
 @import "elements/about";
 @import "elements/brand";
-@import "elements/footer";
+/* @import "elements/footer"; */
 @import "elements/portfolio";
-@import "elements/slickstyle";
+/* @import "elements/slickstyle"; */
 @import "elements/home-classic";
-@import "elements/video-intro";
+/* @import "elements/video-intro"; */
 @import "elements/white-version";
 @import "./custom.scss";

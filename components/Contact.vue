@@ -14,7 +14,7 @@
         <div class="col-lg-5">
           <div class="contact-about-area">
             <div class="thumbnail">
-              <nuxt-img src="/assets/images/contact/contact.jpg" alt="contact-img" />
+              <nuxt-img src="/assets/images/contact/contact.webp" alt="contact-img" />
             </div>
             <!-- <div class="title-area">
               <h4 class="title">Manuel Wittmann</h4>
@@ -33,8 +33,8 @@
             <div class="social-area">
               <div class="name">Du findest mich auch hier:</div>
               <div class="social-icone">
-                <a v-for="(elm, i) in socials.slice(0, 3)" :key="i" :href="elm.link" target="_blank"><i
-                    :data-feather="elm.icon"></i></a>
+                <a v-for="(elm, i) in socials.slice(0, 3)" :key="i" :href="elm.link" target="_blank"
+                  :aria-label="elm.icon"><i :data-feather="elm.icon"></i></a>
               </div>
             </div>
           </div>
@@ -74,8 +74,8 @@
 
                 <div class="col-lg-7">
                   <div class="form-group">
-                    <label for="subject">Firma</label>
-                    <input class="form-control form-control-sm" id="company" name="subject" type="text"
+                    <label for="form-company">Firma</label>
+                    <input class="form-control form-control-sm" id="contact-company" name="form-company" type="text"
                       v-model="company" v-bind="companytAttrs" />
                   </div>
                 </div>

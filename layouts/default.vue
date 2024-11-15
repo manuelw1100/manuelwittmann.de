@@ -37,14 +37,4 @@ watch(
 // TODO: need I installing bootstrap, or can ein remove it from package.json?
 </script>
 
-<style lang="scss">
-@import "../public/assets/css/vendor/bootstrap.min.css";
-@import "../public/assets/css/vendor/slick.css";
-@import "../public/assets/css/vendor/slick-theme.css";
-@import "../public/assets/css/vendor/aos.css";
-@import "../public/assets/css/plugins/feature.css";
-
-@import "../public/assets/scss/style.scss";
-@import "swiper/css";
-@import "swiper/css/effect-fade";
-</style>
+<style lang="scss"></style>
