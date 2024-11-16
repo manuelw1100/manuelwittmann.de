@@ -58,7 +58,7 @@
                     :height="860"
                     src="/assets/images/about/ich_mit_pc.webp"
                     alt="Bild von mir mit Laptop"
-                    sizes="(max-width: 576px) 100vw, (max-width: 768px) 100vw, (max-width: 992px) 50vw, 50vw"
+                    sizes="(max-width: 576px) 100vw, (max-width: 768px) 100vw, (max-width: 992px) 70vw, 70vw"
                     srcset="
         /assets/images/about/ich_mit_pc_xs.webp 240w,
         /assets/images/about/ich_mit_pc_s.webp 320w,
@@ -157,16 +157,35 @@ p span {
 }
 
 @media (max-width: 992px) {
-  .custom-img {
+  .main-image {
     width: 70%;
     height: auto;
   }
 }
 
 @media (max-width: 768px) {
-  .custom-img {
+  .main-image {
     width: 100%;
     height: auto;
   }
+}
+// new Styling
+#home {
+  background: linear-gradient(
+    to bottom right,
+    #14203a 0%,
+    #14203a 73%,
+    #0e557f 86%,
+    #0d6b99 91%,
+    #00aacc 100%
+  );
+}
+.description,
+.title,
+.subtitle {
+  color: #dbdce0 !important;
+}
+a.rn-btn {
+  box-shadow: none;
 }
 </style>

@@ -29,4 +29,9 @@ onUnmounted(() => {
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+//new Style
+li a {
+  color: #dbdce0 !important;
+}
+</style>
