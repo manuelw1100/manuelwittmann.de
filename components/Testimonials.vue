@@ -1,23 +1,40 @@
 <template>
-  <div class="rn-testimonial-area rn-section-gap section-separator scrollSpysection" id="testimonial">
+  <div
+    class="rn-testimonial-area rn-section-gap section-separator scrollSpysection"
+    id="testimonial"
+  >
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center">
-            <span class="subtitle">Einblick in erfolgreiche Zusammenarbeit</span>
+            <span class="subtitle"
+              >Einblick in erfolgreiche Zusammenarbeit</span
+            >
             <h2 class="title">Referenzen</h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div v-for="(elm, i) in testimonials1" :key="i"
-          :class="['col-lg-5', 'col-md-12', 'col-sm-12', { 'offset-lg-1': i === 0 }]">
+        <div
+          v-for="(elm, i) in testimonials1"
+          :key="i"
+          :class="[
+            'col-lg-5',
+            'col-md-12',
+            'col-sm-12',
+            { 'offset-lg-1': i === 0 },
+          ]"
+        >
           <div class="testimonial-pb mb--30">
             <div class="testimonial mt--50 mt_md--40 mt_sm--40">
               <div class="inner">
-
                 <div class="card-description">
                   <div class="title-area">
+                    <nuxt-img
+                      :src="elm.imageSrc"
+                      class="testimonial-image"
+                      alt="Testimonial-image"
+                    />
                     <div class="title-info">
                       <h3 class="title">{{ elm.title }}</h3>
                       <span class="date">{{ elm.date }}</span>
@@ -30,8 +47,6 @@
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
@@ -46,5 +61,24 @@ import { testimonials1 } from "~/data/testimonials";
 <style lang="scss" scoped>
 .card-description::after {
   z-index: 1 !important;
+}
+.testimonial-image {
+  width: 85px; // Adjust size as needed
+  height: 85px; // Must be same as width for perfect circle
+  border-radius: 50%; // Makes the image circular
+  object-fit: cover; // Ensures image fills circle without distortion
+  margin-right: 10px;
+  @media (max-width: 768px) {
+    width: 75px;
+    height: 75px;
+  }
+  @media (max-width: 480px) {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 5px;
+  }
+}
+.testimonial .inner .card-description .title-area {
+  justify-content: flex-start;
 }
 </style>
