@@ -1,31 +1,32 @@
 export const features = [
   {
     id: 1,
-    delay: 100,
+    delay: 500,
     icon: "check-circle",
-    title: "Prozess-Optimierung",
+    title: "Altsysteme modernisieren",
     description:
-      "Ich optimiere und digitalisiere Workflows, die bisher in Excel oder anderen ineffizienten Systemen abgebildet waren. So können Prozesse um bis zu 70% beschleunigt werden.",
+      "Ich ersetze Altsysteme durch moderne, skalierbare Lösungen, damit Unternehmen flexibel bleiben und ihren Erfolg langfristig sichern.",
     link: "#",
   },
   {
     id: 2,
-    delay: 300,
+    delay: 100,
     icon: "check-circle",
-    title: "Datenvisualisierung",
+    title: "Prozesse optimieren",
     description:
-      "Mit benutzerfreundlichen Dashboards stelle ich Daten übersichtlich dar, damit Sie schnell auf alle relevanten Informationen zugreifen und Probleme effizient finden und lösen können.",
+      "Workflows, die bisher in ineffizienten Systemen liefen, werden digitalisiert und optimiert in klare, skalierbare Lösungen, die Prozesse um bis zu 70 % beschleunigen.",
     link: "#",
   },
   {
     id: 3,
-    delay: 500,
+    delay: 300,
     icon: "check-circle",
-    title: "Modernisierung",
+    title: "Daten nutzbar machen",
     description:
-      "Ich ersetze deine Altsysteme durch moderne, flexible Technologien, die einfach skalierbar sind. So sicherst du den langfristigen Erfolg und bleibst flexibel.",
+      "Daten werden klar und übersichtlich in einer modernen Lösung visualisiert. So können relevante Informationen schnell gefunden und wichtige Entscheidungen effizient getroffen werden.",
     link: "#",
   },
+
   // {
   //   id: 3,
   //   delay: 500,
@@ -187,22 +188,23 @@ export const features3 = [
 export const features4 = [
   {
     id: 1,
-    title: "Ineffiziente Systeme",
+    title: "Veraltete, schwer wartbare Systeme",
     description:
-      "Deine Arbeitsabläufe laufen noch über Excel oder andere ineffiziente Systeme?",
+      "Altsysteme verlangsamen die Abläufe, verursachen hohen Wartungsaufwand und lassen sich kaum an neue Anforderungen anpassen. Mit der Zeit werden sie zur echten Belastung für dein Team, deine Projekte und dein Wachstum.",
     iconClass: "feather-alert-triangle",
   },
   {
     id: 2,
-    title: "Kein Überblick über wichtige Daten",
+    title: "Ineffiziente Systeme",
     description:
-      "Du hast eine Menge Daten, aber keinen klaren Überblick? Kannst wichtige Entscheidungen nicht schnell treffen?",
+      "Deine Arbeitsabläufe laufen noch über Excel oder andere ineffiziente Systeme? Solche Lösungen stoßen schnell an ihre Grenzen, wenn es darum geht, komplexe Prozesse zu bewältigen oder Teams effizient zu vernetzen. Sie verursachen doppelte Arbeit, sind fehleranfällig und rauben Zeit.",
     iconClass: "feather-alert-triangle",
   },
   {
     id: 3,
-    title: "Veraltete, schwer wartbare Systeme",
-    description: "Veraltete, schwer wartbare Systeme hindern dein Wachstum?",
+    title: "Kein Überblick über wichtige Daten",
+    description:
+      "Du hast eine Menge Daten, aber keinen klaren Überblick? Ohne strukturierte und visuelle Aufbereitung bleiben wertvolle Informationen ungenutzt, und wichtige Entscheidungen verzögern sich. Statt schnell zu handeln, verlierst du Zeit mit der Suche nach Antworten.",
     iconClass: "feather-alert-triangle",
   },
 ];

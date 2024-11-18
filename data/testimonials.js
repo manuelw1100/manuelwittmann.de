@@ -1,7 +1,7 @@
 export const testimonials1 = [
   {
     id: 1,
-    imageSrc: "/assets/images/testimonial/final-home--1st.png",
+    imageSrc: "/assets/images/testimonial/user.png",
     alt: "Testimonial-image",
     subtitle: "Rainbow-Themes",
     name: "Nevine Acotanza",
@@ -14,7 +14,7 @@ export const testimonials1 = [
   },
   {
     id: 2,
-    imageSrc: "/assets/images/testimonial/final-home--2nd.png",
+    imageSrc: "/assets/images/testimonial/tobias.jpeg",
     alt: "Testimonial-image",
     subtitle: "Bound - Trolola",
     name: "Jone Duone Joe",

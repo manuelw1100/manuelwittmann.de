@@ -30,7 +30,7 @@
                       )
                     "
                   >
-                    <span>Gratis Kennenlern-Talk buchen</span>
+                    <span>Unverbindlich kennenlernen</span>
                     <i data-feather="arrow-right"></i>
                   </a>
                 </div>
