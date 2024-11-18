@@ -4,10 +4,10 @@
     <div class="main-page-wrapper">
       <Hero />
       <Challenges />
-      <div class="section-separator"></div>
-      <MyOffers />
       <Features />
       <Testimonials />
+      <div class="section-separator"></div>
+      <MyOffers />
       <Portfolio />
       <Skills />
       <About />
@@ -21,7 +21,8 @@
 useSeoMeta({
   title:
     "Mehr Wachstum mit maßgeschneiderten Web-Anwendungen | Dein Experte für Entwicklung & Beratung",
-  description: "Ich entwickle maßgeschneiderte, flexible und skalierbare Web-Anwendungen, die Dein Wachstum unterstützen. Profitiere von über 12 Jahren Erfahrung in der Entwicklung von digitalen Lösungen für alle Branchen.",
+  description:
+    "Ich entwickle maßgeschneiderte, flexible und skalierbare Web-Anwendungen, die Dein Wachstum unterstützen. Profitiere von über 12 Jahren Erfahrung in der Entwicklung von digitalen Lösungen für alle Branchen.",
 });
 
 import Header from "~/components/header/Header.vue";
