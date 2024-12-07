@@ -2,19 +2,21 @@ export const testimonials1 = [
   {
     id: 1,
     imageSrc: "/assets/images/testimonial/user.png",
+    companySrc: "",
     alt: "Testimonial-image",
     subtitle: "Rainbow-Themes",
     name: "Nevine Acotanza",
     designation: "Chief Operating Officer",
     title: "Mercedes-Benz Tech Innovation",
-    date: "Tobias Just - Lead Developer",
+    date: "Marco Kranz - Product Owner",
     rating: 5,
     description:
-      "Manuel war der führende Entwickler im Frontend und nahm sich professionell allen Aufgaben an. Ebenso kümmerte er sich hervorragend um Supportanfragen.",
+      "Manuel war als Front-End-Entwickler ein zentraler Bestandteil unseres Teams und hat mit seinem tiefen Verständnis von Vue.js maßgeblich zum Erfolg des Projekts beigetragen. Seine Fähigkeit, komplexe Anforderungen in eine intuitive, performante und benutzerfreundliche Oberfläche zu übersetzen, war beeindruckend. <br/><br/> Besonders hervorheben möchte ich Manuels strukturierte Herangehensweise an Herausforderungen und sein hohes Maß an Verantwortungsbewusstsein. Egal ob es um die Implementierung von Design-Anforderungen, die Optimierung der Performance oder die Lösung kniffliger technischer Probleme ging – Manuel hat stets proaktiv und mit hoher Qualität geliefert. <br/><br/> Was ihn darüber hinaus auszeichnet, ist seine Teamfähigkeit und Kommunikationsstärke. Er hat nicht nur mit seiner Expertise überzeugt, sondern auch durch seine Bereitschaft, Wissen zu teilen und andere im Team zu unterstützen.",
   },
   {
     id: 2,
-    imageSrc: "/assets/images/testimonial/tobias.jpeg",
+    imageSrc: "/assets/images/testimonial/user.png",
+    companySrc: "/assets/images/logo/link_innovation.png",
     alt: "Testimonial-image",
     subtitle: "Bound - Trolola",
     name: "Jone Duone Joe",
@@ -23,8 +25,9 @@ export const testimonials1 = [
     date: "Tobias Kieneke - Geschäftsführer",
     rating: 5,
     description:
-      "Manuel überzeugte uns und unsere Kunden durch seine umfassenden Fachkenntnisse. Er zeigte überdurchschnittliches Engagement und Flexibilität und arbeitete sich sehr schnell und initiativ in die unterschiedlichen Projekte und Themenbereiche ein. Die Qualität seiner Arbeitsergebnisse lag auch bei schwierigen Aufgaben und unter Termindruck über den Anforderungen.",
+      "Manuel überzeugte uns und unsere Kunden durch seine umfassenden Fachkenntnisse. <br/><br/> Er zeigte überdurchschnittliches Engagement und Flexibilität und arbeitete sich sehr schnell und initiativ in die unterschiedlichen Projekte und Themenbereiche ein. <br/><br/> Manuel zeigte eine sehr gute Übersicht und Arbeitseinteilung, auch in turbulenten Situationen.<br/><br/>  Die Qualität seiner Arbeitsergebnisse lag auch bei schwierigen Aufgaben und unter Termindruck über den Anforderungen.<br/><br/> ",
   },
+
   // {
   //   id: 3,
   //   imageSrc: "/assets/images/testimonial/final-home--3rd.png",

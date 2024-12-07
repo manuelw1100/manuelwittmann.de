@@ -8,9 +8,9 @@
       <Testimonials />
       <div class="section-separator"></div>
       <MyOffers />
+      <About />
       <Portfolio />
       <Skills />
-      <About />
       <Contact />
     </div>
     <Footer />
