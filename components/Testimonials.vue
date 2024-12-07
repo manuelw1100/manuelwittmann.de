@@ -37,9 +37,11 @@
                       class="company-image"
                       alt="company-image"
                     />
-                    <div class="company-title" v-else="elm.title">
-                      {{ elm.title }}
-                    </div>
+                    <div
+                      class="company-title"
+                      v-else="elm.title"
+                      v-html="elm.title"
+                    />
                   </div>
                   <div class="title-area">
                     <div class="seperator"></div>
@@ -132,7 +134,7 @@ const truncateText = computed(() => (isLong, text) => {
   color: var(--color-body-white);
   // border: 2px solid #dfdfdf;
   // border-radius: 6px;
-  max-width: 40%;
+  //max-width: 40%;
   padding: 18px 0px;
 }
 .title-area .icon svg {

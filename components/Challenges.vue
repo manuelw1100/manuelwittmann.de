@@ -23,7 +23,7 @@
               :key="i"
               data-aos="fade-up"
               data-aos-duration="500"
-              data-aos-delay="100"
+              data-aos-delay="0"
               data-aos-once="true"
               class="col-12 mb--30"
             >
@@ -61,10 +61,6 @@ import { features4 } from "~/data/features";
 </script>
 
 <style lang="scss" scoped>
-[data-aos] {
-  min-height: 200px;
-}
-
 .danger-icon {
   color: var(--color-danger) !important;
 }

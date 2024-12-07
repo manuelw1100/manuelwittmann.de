@@ -7,7 +7,7 @@ export const testimonials1 = [
     subtitle: "Rainbow-Themes",
     name: "Nevine Acotanza",
     designation: "Chief Operating Officer",
-    title: "Mercedes-Benz Tech Innovation",
+    title: "Mercedes-Benz <br/>Tech Innovation",
     date: "Marco Kranz - Product Owner",
     rating: 5,
     description:
