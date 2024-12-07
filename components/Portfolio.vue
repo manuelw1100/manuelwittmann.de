@@ -1,5 +1,8 @@
 <template>
-  <div class="rn-resume-area rn-section-gap section-separator scrollSpysection mw-100" id="portfolio">
+  <div
+    class="rn-resume-area rn-section-gap section-separator scrollSpysection mw-100"
+    id="portfolio"
+  >
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -11,13 +14,15 @@
       </div>
       <div class="row mt--45">
         <div class="col-lg-12">
-
-
           <!-- Start Tab Content Wrapper  -->
           <div class="rn-nav-content tab-content" id="myTabContents">
             <!-- Start Single Tab  -->
-            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel"
-              aria-labelledby="education-tab">
+            <div
+              class="tab-pane show active fade single-tab-area"
+              id="education"
+              role="tabpanel"
+              aria-labelledby="education-tab"
+            >
               <div class="personal-experience-inner mt--40">
                 <div class="row">
                   <!-- Start Skill List Area  -->
@@ -27,7 +32,14 @@
                       <h4 class="maintitle">Education Quality</h4> -->
                       <div class="experience-list">
                         <!-- Start Single List  -->
-                        <div v-for="(elm, i) in educattionRef_1" :key="i" class="resume-single-list">
+                        <div
+                          v-for="(elm, i) in educattionRef_1"
+                          :key="i"
+                          class="resume-single-list"
+                          :class="{
+                            expanded: isLong_1[i],
+                          }"
+                        >
                           <div class="inner">
                             <div class="heading">
                               <div class="title">
@@ -38,11 +50,18 @@
                                 <span>{{ elm.rating }}</span>
                               </div> -->
                             </div>
-                            <p class="description">
-                              {{ !elm.longDesription ? elm.description.substring(0, 200) + '...' : elm.description }}
-                            </p>
-                            <a class="read-more" href="#" @click.prevent="toggleDescription1(i)">
-                              {{ !elm.longDesription ? 'Weiterlesen' : 'Weniger' }}
+                            <p
+                              class="description"
+                              v-html="
+                                truncateText(isLong_1[i], elm.description)
+                              "
+                            ></p>
+                            <a
+                              class="read-more"
+                              href="#"
+                              @click.prevent="toogleIsLong_1(i)"
+                            >
+                              {{ !isLong_1[i] ? "Weiterlesen" : "Weniger" }}
                             </a>
                           </div>
                         </div>
@@ -61,7 +80,14 @@
                       <h4 class="maintitle">Job Experience</h4> -->
                       <div class="experience-list">
                         <!-- Start Single List  -->
-                        <div v-for="(elm, i) in educattionRef_2" :key="i" class="resume-single-list">
+                        <div
+                          v-for="(elm, i) in educattionRef_2"
+                          :key="i"
+                          class="resume-single-list"
+                          :class="{
+                            expanded: isLong_2[i],
+                          }"
+                        >
                           <div class="inner">
                             <div class="heading">
                               <div class="title">
@@ -72,11 +98,18 @@
                                 <span>{{ elm.rating }}</span>
                               </div> -->
                             </div>
-                            <p class="description">
-                              {{ !elm.longDesription ? elm.description.substring(0, 200) + '...' : elm.description }}
-                            </p>
-                            <a class="read-more" href="#" @click.prevent="toggleDescription2(i)">
-                              {{ !elm.longDesription ? 'Weiterlesen' : 'Weniger' }}
+                            <p
+                              class="description"
+                              v-html="
+                                truncateText(isLong_2[i], elm.description)
+                              "
+                            ></p>
+                            <a
+                              class="read-more"
+                              href="#"
+                              @click.prevent="toogleIsLong_2(i)"
+                            >
+                              {{ !isLong_2[i] ? "Weiterlesen" : "Weniger" }}
                             </a>
                           </div>
                         </div>
@@ -89,12 +122,6 @@
               </div>
             </div>
             <!-- End Single Tab  -->
-
-
-
-
-
-
           </div>
         </div>
       </div>
@@ -108,13 +135,29 @@ import { education2, education3 } from "~/data/education";
 const educattionRef_1 = ref(education2);
 const educattionRef_2 = ref(education3);
 
-const toggleDescription1 = (index) => {
-  educattionRef_1.value[index].longDesription = !educattionRef_1.value[index].longDesription;
+const isLong_1 = ref([]);
+const isLong_2 = ref([]);
+
+onMounted(() => {
+  educattionRef_1.value.forEach(() => {
+    isLong_1.value.push(false);
+  });
+  educattionRef_2.value.forEach(() => {
+    isLong_2.value.push(false);
+  });
+});
+
+const toogleIsLong_1 = (index) => {
+  isLong_1.value[index] = !isLong_1.value[index];
 };
 
-const toggleDescription2 = (index) => {
-  educattionRef_2.value[index].longDesription = !educattionRef_2.value[index].longDesription;
+const toogleIsLong_2 = (index) => {
+  isLong_2.value[index] = !isLong_2.value[index];
 };
+
+const truncateText = computed(() => (isLong, text) => {
+  return !isLong ? text.substring(0, 200) + "..." : text;
+});
 </script>
 
 <style lang="scss" scoped>
@@ -127,7 +170,19 @@ const toggleDescription2 = (index) => {
   margin: 0 0 20px;
 }
 
-.experience-list:hover {
+.resume-single-list {
+  transition: height 0.5s ease-in-out !important;
+  height: 400px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.resume-single-list.expanded {
+  height: 600px !important;
+  opacity: 1;
+}
+
+.resume-single-list:hover {
   .read-more {
     color: var(--color-light);
   }
