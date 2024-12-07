@@ -16,7 +16,7 @@ export const testimonials1 = [
   {
     id: 2,
     imageSrc: "/assets/images/testimonial/user.png",
-    companySrc: "/assets/images/logo/link_innovation.png",
+    companySrc: "/assets/images/logo/link_innovation.webp",
     alt: "Testimonial-image",
     subtitle: "Bound - Trolola",
     name: "Jone Duone Joe",
