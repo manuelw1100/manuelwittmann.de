@@ -43,7 +43,6 @@
                 <div class="image-wrapper">
                   <!-- Blur Placeholder -->
                   <div
-                    v-if="false"
                     class="blur-placeholder"
                     :class="{ 'blur-hidden': imageLoaded }"
                     :style="{

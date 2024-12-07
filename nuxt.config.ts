@@ -69,9 +69,9 @@ export default defineNuxtConfig({
     },
   },
   vite: {
-    build: {
-      minify: "esbuild",
-    },
+    // build: {
+    //   minify: "esbuild",
+    // },
   },
 
   runtimeConfig: {
