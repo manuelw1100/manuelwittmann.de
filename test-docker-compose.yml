@@ -1,0 +1,22 @@
+version: "3"
+services:
+  test_nuxt:
+    image: node:20.13.1
+    container_name: test_nuxt
+    working_dir: /usr/src/testApp
+    volumes:
+      - ./:/usr/src/testApp
+    environment:
+      - NODE_ENV=production
+    command: sh -c "npm install && npm run build && node ./.output/server/index.mjs"
+    expose:
+      - 3000
+    ports:
+      - "3000:3000"
+    networks:
+      local:
+        ipv4_address: 172.18.0.8
+
+networks:
+  local:
+    external: true

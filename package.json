@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "manuelwittmann.de",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,8 +10,22 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@nuxt/image": "^1.8.0",
+    "@vee-validate/rules": "^4.14.7",
+    "@vee-validate/yup": "^4.14.7",
+    "@vee-validate/zod": "^4.14.7",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "feather-icons": "^4.29.2",
     "nuxt": "^3.12.3",
+    "nuxt-booster": "^3.1.6",
+    "nuxt-particles": "^0.3.0",
+    "sass": "^1.79.4",
+    "swiper": "^11.1.14",
+    "vee-validate": "^4.14.7",
     "vue": "latest"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.24.4"
   }
 }
