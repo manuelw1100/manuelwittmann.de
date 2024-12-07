@@ -61,6 +61,10 @@ import { features4 } from "~/data/features";
 </script>
 
 <style lang="scss" scoped>
+[data-aos] {
+  min-height: 200px;
+}
+
 .danger-icon {
   color: var(--color-danger) !important;
 }

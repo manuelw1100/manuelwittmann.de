@@ -3,8 +3,9 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["nuxt-particles", "@nuxt/image", "nuxt-booster"],
+  modules: ["nuxt-particles", "@nuxt/image"],
 
+  //TODO: remove next line-block
   booster: {
     detection: {
       performance: true,
@@ -21,7 +22,7 @@ export default defineNuxtConfig({
         dcl: 1200,
       },
     },
-    targetFormats: ["webp", "avif", "jpg|jpeg|png|gif"],
+    targetFormats: ["webp", "jpg|jpeg|png"],
 
     componentAutoImport: false,
     componentPrefix: undefined,
@@ -32,6 +33,18 @@ export default defineNuxtConfig({
     lazyOffset: {
       component: "0%",
       asset: "0%",
+    },
+    image: {
+      screens: {
+        default: 320,
+        xxs: 480,
+        xs: 576,
+        sm: 768,
+        md: 992,
+        lg: 1200,
+        xl: 1400,
+        xxl: 1600,
+      },
     },
   },
 
