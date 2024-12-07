@@ -39,8 +39,8 @@ export default defineNuxtConfig({
 
   css: [
     "~/assets/css/vendor/bootstrap.min.css",
-    "~/assets/css/vendor/slick.css",
-    "~/assets/css/vendor/slick-theme.css",
+    // "~/assets/css/vendor/slick.css",
+    // "~/assets/css/vendor/slick-theme.css",
     "~/assets/css/vendor/aos.css",
     // "~/assets/css/plugins/feature.scss",
     "~/assets/scss/style.scss",
