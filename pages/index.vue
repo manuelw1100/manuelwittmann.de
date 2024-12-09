@@ -18,6 +18,17 @@
 </template>
 
 <script setup>
+useHead({
+  link: [
+    {
+      rel: "preload",
+      as: "font",
+      href: "/assets/fonts/Feather.woff?sdxovp",
+      type: "font/woff2",
+      crossorigin: "anonymous",
+    },
+  ],
+});
 useSeoMeta({
   title:
     "Mehr Wachstum mit maßgeschneiderten Web-Anwendungen | Dein Experte für Entwicklung & Beratung",
