@@ -28,17 +28,4 @@
 //import { footerLinks } from "~/data/menu";
 </script>
 
-<style lang="scss" scoped>
-.menu-wrapper ul,
-li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style-type: none;
-}
-
-.social-icone-wrapper,
-.menu-wrapper,
-.section-separator {
-  padding: 10px 0;
-}
-</style>
+<style lang="scss" scoped></style>

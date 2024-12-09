@@ -82,26 +82,4 @@ const openBooking = (url) => {
 };
 </script>
 
-<style lang="scss" scoped>
-@media (max-width: 992px) {
-  .thumbnail {
-    text-align: center;
-  }
-
-  .custom-img {
-    width: 70% !important;
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .thumbnail {
-    text-align: center;
-  }
-
-  .custom-img {
-    width: 90% !important;
-    height: auto;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
