@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rn-resume-area rn-section-gap section-separator scrollSpysection mw-100"
+    class="rn-resume-area rn-section-gap section-separator scrollSpysection mw-100 portfolio"
     id="portfolio"
   >
     <div class="container">
@@ -160,31 +160,4 @@ const truncateText = computed(() => (isLong, text) => {
 });
 </script>
 
-<style lang="scss" scoped>
-.read-more {
-  color: var(--color-midgray);
-  cursor: pointer;
-}
-
-.description {
-  margin: 0 0 20px;
-}
-
-.resume-single-list {
-  transition: height 0.5s ease-in-out !important;
-  height: 400px;
-  overflow: hidden;
-  opacity: 1;
-}
-
-.resume-single-list.expanded {
-  height: 600px !important;
-  opacity: 1;
-}
-
-.resume-single-list:hover {
-  .read-more {
-    color: var(--color-light);
-  }
-}
-</style>
+<style lang="scss" scoped></style>

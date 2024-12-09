@@ -1,7 +1,7 @@
 <template>
   <div
     id="offer"
-    class="rn-project-area portfolio-style-two rn-section-gap scrollSpysection"
+    class="rn-project-area portfolio-style-two rn-section-gap scrollSpysection offer"
   >
     <div class="container">
       <div class="row">
@@ -107,44 +107,4 @@ const openBooking = (url) => {
 };
 </script>
 
-<style lang="scss" scoped>
-.white-version .slide .thumbnail::before {
-  background: none !important;
-  box-shadow: none !important;
-}
-
-.check-icon {
-  color: var(--color-primary);
-  margin-right: 6px;
-  font-size: 24px;
-}
-.carousel.slide {
-  box-shadow: 0px 0px 20px rgba(0, 170, 204, 0.2) !important;
-  background: #14203a;
-}
-
-.rn-project-area {
-  //background: #14203a;
-  background: linear-gradient(
-    to bottom right,
-    #00aacc 0%,
-    #0d6b99 5%,
-    #0e557f 10%,
-    #14203a 40%,
-    #14203a 60%,
-    #0e557f 90%,
-    #0d6b99 95%,
-    #00aacc 100%
-  );
-}
-.portfolio-style-two .portfolio-single .inner {
-  .title,
-  p.discription,
-  .ft-area .feature-wrapper .single-feature p {
-    color: #dbdce0 !important;
-  }
-}
-a.rn-btn {
-  box-shadow: none;
-}
-</style>
+<style lang="scss" scoped></style>

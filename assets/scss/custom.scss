@@ -1466,3 +1466,71 @@ header {
     cursor: pointer;
   }
 }
+
+.offer {
+  background: linear-gradient(
+      to bottom right,
+      #00aacc 0%,
+      #0d6b99 5%,
+      #0e557f 10%,
+      #14203a 40%,
+      #14203a 60%,
+      #0e557f 90%,
+      #0d6b99 95%,
+      #00aacc 100%
+    );
+
+   .slide .thumbnail::before {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .check-icon {
+    color: var(--color-primary);
+    margin-right: 6px;
+    font-size: 24px;
+  }
+
+  .carousel.slide {
+    box-shadow: 0px 0px 20px rgba(0, 170, 204, 0.2) !important;
+    background: #14203a;
+  }
+
+  a.rn-btn {
+    box-shadow: none;
+  }
+
+}
+
+.white-version .portfolio-style-two .portfolio-single .inner {
+  .title,
+  p.discription,
+  .ft-area .feature-wrapper .single-feature p {
+    color: #dbdce0 !important;
+  }
+}
+
+.portfolio {
+  .read-more {
+    color: var(--color-midgray);
+    cursor: pointer;
+  }
+  .description {
+    margin: 0 0 20px;
+  }
+
+  .resume-single-list {
+    transition: height 0.5s ease-in-out !important;
+    height: 400px;
+  }
+
+  .resume-single-list.expanded {
+    height: 600px !important;
+    opacity: 1;
+  }
+
+  .resume-single-list:hover {
+    .read-more {
+      color: var(--color-light);
+    }
+  }
+}
