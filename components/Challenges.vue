@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rn-pricing-area rn-section-gap scrollSpysection section-separator"
+    class="rn-pricing-area rn-section-gap scrollSpysection section-separator challenges"
     id="challenges"
   >
     <div class="container">
@@ -60,16 +60,4 @@
 import { features4 } from "~/data/features";
 </script>
 
-<style lang="scss" scoped>
-.danger-icon {
-  color: var(--color-danger) !important;
-}
-.doctor-feature {
-  margin-top: 60px;
-}
-.rn-service:hover {
-  .title {
-    color: #dbdce0 !important;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

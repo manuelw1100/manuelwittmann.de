@@ -1353,3 +1353,17 @@ header {
     box-shadow: none;
   }
 }
+
+.challenges {
+  .danger-icon {
+    color: var(--color-danger) !important;
+  }
+  .doctor-feature {
+    margin-top: 60px;
+  }
+  .rn-service:hover {
+    .title {
+      color: #dbdce0 !important;
+    }
+  }
+}
