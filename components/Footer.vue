@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-import { footerLinks } from "~/data/menu";
+//import { footerLinks } from "~/data/menu";
 </script>
 
 <style lang="scss" scoped>

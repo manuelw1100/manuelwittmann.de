@@ -8,7 +8,7 @@
             <div class="col-10 mx-auto">
               <div class="contant">
                 <div class="section-title text-left mb-4">
-                  <h1 class="title">Impressum</h1>
+                  <h1 class="title mt-5">Impressum</h1>
                 </div>
 
                 <Impressum />
@@ -17,7 +17,6 @@
           </div>
         </div>
       </div>
-
     </div>
     <Footer2 />
   </div>
@@ -37,8 +36,6 @@ import Impressum from "~/components/Impressum.vue";
 
 h1,
 h2 {
-
   color: var(--color-body-white);
-
 }
 </style>

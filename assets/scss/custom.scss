@@ -1236,6 +1236,18 @@ header {
   }
 }
 
+.white-version #sideNav .primary-menu li a {
+  color: #dbdce0;
+}
+
+.white-version .rn-header.header--fixed.sticky {
+  background-color: #14203a;
+  box-shadow: 10px 10px 19px rgba(0, 170, 204, 0.08);
+}
+.header-wrapper {
+  background-color: #14203a;
+}
+
 .error-area {
   align-items: center;
   display: flex;
