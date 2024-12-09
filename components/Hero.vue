@@ -87,6 +87,11 @@ useHead({
     {
       rel: "preload",
       as: "image",
+      href: "/assets/images/about/ich_mit_pc.webp",
+    },
+    {
+      rel: "preload",
+      as: "image",
       href: "/assets/images/about/ich_mit_pc_m.webp",
     },
   ],
