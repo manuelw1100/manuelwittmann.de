@@ -107,8 +107,8 @@
                     <label for="form-company">Firma</label>
                     <input
                       class="form-control form-control-sm"
-                      id="contact-company"
-                      name="form-company"
+                      id="form-company"
+                      name="contact-company"
                       type="text"
                       v-model="company"
                       v-bind="companytAttrs"
