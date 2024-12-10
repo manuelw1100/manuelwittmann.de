@@ -21,7 +21,7 @@
     "nuxt-particles": "^0.3.0",
     "sass": "^1.79.4",
     "swiper": "^11.1.14",
-    "vee-validate": "^4.14.7",npm
+    "vee-validate": "^4.14.7",
     "vue": "latest"
   },
   "optionalDependencies": {
