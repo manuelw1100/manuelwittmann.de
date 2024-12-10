@@ -1,7 +1,7 @@
 version: "3"
 services:
   test_nuxt:
-    image: node:20.13.1
+    image: node:22.9.0
     container_name: test_nuxt
     working_dir: /usr/src/testApp
     volumes:
