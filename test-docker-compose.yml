@@ -7,7 +7,7 @@ services:
     volumes:
       - ./:/usr/src/testApp
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=test
     command: sh -c "npm install && npm run build && node ./.output/server/index.mjs"
     expose:
       - 3000

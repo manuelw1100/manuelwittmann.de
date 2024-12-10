@@ -23,6 +23,16 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "de",
       },
+      meta: [
+        ...(process.env.NODE_ENV === "production"
+          ? [
+              {
+                name: "google-site-verification",
+                content: "YOUR-VERIFICATION-CODE",
+              },
+            ]
+          : []),
+      ],
       link: [
         {
           rel: "icon",
