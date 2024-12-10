@@ -4,10 +4,18 @@
       <div class="menu-top">
         <div class="menu-header">
           <nuxt-link class="logo" to="/">
-            <nuxt-img :width="170" :height="70" src="/assets/images/logo/logo_mw2.svg" alt="Personal Portfolio" />
+            <nuxt-img
+              :width="180"
+              :height="70"
+              src="/assets/images/logo/logo_mw2.svg"
+              alt="Personal Portfolio"
+            />
           </nuxt-link>
           <div class="close-button-x">
-            <button @click="closeMobileMenu" class="close-menu-activation close">
+            <button
+              @click="closeMobileMenu"
+              class="close-menu-activation close"
+            >
               <i data-feather="x"></i>
             </button>
           </div>
@@ -16,11 +24,14 @@
       <div class="content">
         <ul class="primary-menu nav nav-pills onepagenav scrollspyLinks2">
           <li v-for="(elm, i) in navItems" :key="i" class="nav-item">
-            <a @click="closeMobileMenu" :class="`nav-link smoth-animation ${!i ? 'active' : ''}`" :href="elm.href">{{
-              elm.title }}</a>
+            <a
+              @click="closeMobileMenu"
+              :class="`nav-link smoth-animation ${!i ? 'active' : ''}`"
+              :href="elm.href"
+              >{{ elm.title }}</a
+            >
           </li>
         </ul>
-
       </div>
     </div>
   </div>
