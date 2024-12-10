@@ -6,7 +6,7 @@
           <nuxt-link class="logo" to="/">
             <nuxt-img
               :width="180"
-              :height="70"
+              :height="80"
               src="/assets/images/logo/logo_mw2.svg"
               alt="Personal Portfolio"
             />
