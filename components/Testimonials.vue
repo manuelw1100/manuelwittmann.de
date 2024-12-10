@@ -44,7 +44,7 @@
                     />
                   </div>
                   <div class="title-area">
-                    <div class="seperator"></div>
+                    <!-- <div class="seperator d-none"></div> -->
                     <!-- <nuxt-img
                       :src="elm.imageSrc"
                       class="testimonial-image"
@@ -58,7 +58,7 @@
                       <span class="date">{{ elm.date }}</span>
                     </div>
                   </div>
-                  <div class="seperator"></div>
+                  <div class="seperator pb-1"></div>
                   <p
                     class="discription"
                     v-html="truncateText(isLong[i], elm.description)"
