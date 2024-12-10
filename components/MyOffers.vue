@@ -1,7 +1,7 @@
 <template>
   <div
     id="offer"
-    class="rn-project-area portfolio-style-two rn-section-gap scrollSpysection"
+    class="rn-project-area portfolio-style-two rn-section-gap scrollSpysection offer"
   >
     <div class="container">
       <div class="row">
@@ -72,13 +72,9 @@
                     />
                   </div>
                   <a
-                    href="#"
+                    href="https://meet.brevo.com/manuel-wittmann/analsyse-gesprach"
+                    target="_blank"
                     class="rn-btn btn-theme mt-5 d-none d-lg-inline-block"
-                    @click="
-                      openBooking(
-                        'https://meet.brevo.com/manuel-wittmann/borderless?l=analsyse-gesprach'
-                      )
-                    "
                   >
                     <span>Kostenlose Strategie-Beratung buchen</span>
                     <i data-feather="arrow-right"></i>
@@ -97,54 +93,6 @@
 <script setup>
 import { portfolios2 } from "~/data/portfolios";
 const elm = portfolios2[0];
-
-import { useNuxtApp } from "#app";
-
-const { $openBrevoBooking } = useNuxtApp();
-
-const openBooking = (url) => {
-  $openBrevoBooking(url);
-};
 </script>
 
-<style lang="scss" scoped>
-.white-version .slide .thumbnail::before {
-  background: none !important;
-  box-shadow: none !important;
-}
-
-.check-icon {
-  color: var(--color-primary);
-  margin-right: 6px;
-  font-size: 24px;
-}
-.carousel.slide {
-  box-shadow: 0px 0px 20px rgba(0, 170, 204, 0.2) !important;
-  background: #14203a;
-}
-
-.rn-project-area {
-  //background: #14203a;
-  background: linear-gradient(
-    to bottom right,
-    #00aacc 0%,
-    #0d6b99 5%,
-    #0e557f 10%,
-    #14203a 40%,
-    #14203a 60%,
-    #0e557f 90%,
-    #0d6b99 95%,
-    #00aacc 100%
-  );
-}
-.portfolio-style-two .portfolio-single .inner {
-  .title,
-  p.discription,
-  .ft-area .feature-wrapper .single-feature p {
-    color: #dbdce0 !important;
-  }
-}
-a.rn-btn {
-  box-shadow: none;
-}
-</style>
+<style lang="scss" scoped></style>

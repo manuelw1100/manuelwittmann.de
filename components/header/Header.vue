@@ -75,10 +75,4 @@ import { menuOpen } from "~/utlis/menuToggle";
 defineProps(["navItems"]);
 </script>
 
-<style lang="scss" scoped>
-.rn-header.header--fixed.sticky {
-  background-color: #14203a;
-  //box-shadow: 10px 10px 19px rgba(20, 32, 58, 0.2);
-  box-shadow: 10px 10px 19px rgba(0, 170, 204, 0.08);
-}
-</style>
+<style lang="scss" scoped></style>

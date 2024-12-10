@@ -1,6 +1,6 @@
 <template>
   <div
-    class="rn-service-area rn-section-gap section-separator scrollSpysection"
+    class="rn-service-area rn-section-gap section-separator scrollSpysection features"
     id="features"
   >
     <div class="container">
@@ -59,10 +59,4 @@
 import { features } from "~/data/features";
 </script>
 
-<style lang="scss" scoped>
-.rn-service:hover {
-  .title {
-    color: #dbdce0 !important;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

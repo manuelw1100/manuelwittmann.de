@@ -1,25 +1,3 @@
-export const education = [
-  {
-    id: 1,
-    date: "2015-Present",
-    title: "Software Develop.",
-    subtitle: "Co-Founder, Web Designer & Developer",
-    disc: "Reinventing the way you create websites",
-    imageSrc: "/assets/images/portfolio/portfolio-04.jpg",
-    link: "#contacts",
-  },
-  {
-    id: 2,
-    date: "2015-Present",
-    title: "Web Design.",
-    subtitle: "Co-Founder, Web Designer & Developer",
-    disc: "Reinventing the way you create websites",
-    imageSrc: "/assets/images/portfolio/portfolio-05.jpg",
-    link: "#contacts",
-  },
-  // Add more experience objects here
-];
-
 export const education2 = [
   {
     id: 1,

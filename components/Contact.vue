@@ -107,8 +107,8 @@
                     <label for="form-company">Firma</label>
                     <input
                       class="form-control form-control-sm"
-                      id="contact-company"
-                      name="form-company"
+                      id="form-company"
+                      name="contact-company"
                       type="text"
                       v-model="company"
                       v-bind="companytAttrs"
@@ -289,56 +289,4 @@ const submitForm = async () => {
 //portalId: 47718954, guid: "dbc43b64-5316-40ff-8fdd-8ae2f5fe290f"
 </script>
 
-<style lang="scss" scoped>
-.social-area .name {
-  text-transform: uppercase;
-}
-
-.inpur-error {
-  color: var(--color-danger);
-  font-size: 1.45rem;
-  padding-left: 5px;
-}
-
-button.rn-btn:disabled {
-  background-color: #cccccc;
-  color: #666666;
-  cursor: not-allowed;
-  pointer-events: none;
-  opacity: 0.5;
-}
-
-button.rn-btn:disabled:hover {
-  background-color: #cccccc;
-  color: #666666;
-}
-
-.form-group a {
-  color: #111;
-  text-decoration: underline;
-
-  &:hover {
-    color: var(--color-primary);
-  }
-}
-
-.form-check-input {
-  width: 0px;
-  height: 0px;
-  border: none !important;
-}
-
-.form-feedback-text {
-  font-size: 1.65rem;
-  color: var(--bs-gray-dark);
-
-  &--success {
-    color: var(--color-success);
-  }
-
-  &--error {
-    padding-top: 4px;
-    color: var(--color-danger);
-  }
-}
-</style>
+<style lang="scss" scoped></style>

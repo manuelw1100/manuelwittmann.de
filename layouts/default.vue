@@ -10,9 +10,9 @@ onMounted(() => {
   // Check if the window object is defined
   if (typeof window !== "undefined") {
     // Import the script only on the client side
-    import("bootstrap/dist/js/bootstrap.esm").then(() => {
-      // Module is imported, you can access any exported functionality if
-    });
+    // import("bootstrap/dist/js/bootstrap.esm").then(() => {
+    //   // Module is imported, you can access any exported functionality if
+    // });
   }
   window.addEventListener("scroll", function () {
     var header = document.querySelector(".header--sticky");

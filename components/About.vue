@@ -54,13 +54,9 @@
               Wachstum fördert – für einen nachhaltigen Erfolg.
             </p>
             <a
-              href="#"
+              href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"
+              target="_blank"
               class="rn-btn mt-5"
-              @click="
-                openBooking(
-                  'https://meet.brevo.com/manuel-wittmann/borderless?l=30-minutiges-meeting'
-                )
-              "
             >
               <span>Unverbindlich kennenlernen</span>
               <i data-feather="arrow-right"></i>
@@ -72,36 +68,6 @@
   </div>
 </template>
 
-<script setup>
-import { useNuxtApp } from "#app";
+<script setup></script>
 
-const { $openBrevoBooking } = useNuxtApp();
-
-const openBooking = (url) => {
-  $openBrevoBooking(url);
-};
-</script>
-
-<style lang="scss" scoped>
-@media (max-width: 992px) {
-  .thumbnail {
-    text-align: center;
-  }
-
-  .custom-img {
-    width: 70% !important;
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .thumbnail {
-    text-align: center;
-  }
-
-  .custom-img {
-    width: 90% !important;
-    height: auto;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

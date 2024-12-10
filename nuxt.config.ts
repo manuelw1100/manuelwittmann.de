@@ -5,50 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["nuxt-particles", "@nuxt/image"],
 
-  //TODO: remove next line-block
-  booster: {
-    detection: {
-      performance: true,
-      browserSupport: true,
-    },
-
-    performanceMetrics: {
-      device: {
-        hardwareConcurrency: { min: 2, max: 48 },
-        deviceMemory: { min: 2 },
-      },
-      timing: {
-        fcp: 800,
-        dcl: 1200,
-      },
-    },
-    targetFormats: ["webp", "jpg|jpeg|png"],
-
-    componentAutoImport: false,
-    componentPrefix: undefined,
-
-    /**
-     * IntersectionObserver rootMargin for Compoennts and Assets
-     */
-    lazyOffset: {
-      component: "0%",
-      asset: "0%",
-    },
-    image: {
-      screens: {
-        default: 320,
-        xxs: 480,
-        xs: 576,
-        sm: 768,
-        md: 992,
-        lg: 1200,
-        xl: 1400,
-        xxl: 1600,
-      },
-    },
-  },
-
-  plugins: ["~/plugins/brevoBooking.js"],
+  //plugins: ["~/plugins/brevoBooking.js"],
 
   css: [
     "~/assets/css/vendor/bootstrap.min.css",
@@ -66,13 +23,45 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "de",
       },
+      meta: [
+        ...(process.env.NODE_ENV === "production"
+          ? [
+              {
+                name: "google-site-verification",
+                content: "YOUR-VERIFICATION-CODE",
+              },
+            ]
+          : []),
+      ],
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/assets/favicon/favicon-96x96.png",
+          sizes: "96x96",
+        },
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/assets/favicon/favicon.svg",
+        },
+        {
+          rel: "shortcut icon",
+          href: "/assets/favicon/favicon.ico",
+        },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/assets/favicon/apple-touch-icon.png",
+        },
+        {
+          rel: "manifest",
+          href: "/assets/favicon/site.webmanifest",
+        },
+      ],
     },
   },
-  vite: {
-    build: {
-      minify: "esbuild",
-    },
-  },
+  vite: {},
 
   runtimeConfig: {
     public: {

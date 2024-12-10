@@ -6,12 +6,8 @@ export const navItemsMainDemo = [
   { id: 5, title: "IT-Beratung", href: "#offer" },
   { id: 6, title: "Über mich", href: "#about" },
   { id: 7, title: "Projekte", href: "#portfolio" },
-  { id: 8, title: "Meine Tools", href: "#skill" },
+  { id: 8, title: "Tools", href: "#skill" },
   { id: 9, title: "Kontakt", href: "#contacts" },
-
-  //{ id: 6, title: "Blog", href: "#blog" },
-  // { id: 6, title: "Pricing", href: "#pricing" },
-  // { id: 7, title: "Blog", href: "#blog" },
 ];
 export const navItemsClean = [{ id: 1, title: "Home", href: "/" }];
 
