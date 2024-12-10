@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["nuxt-particles", "@nuxt/image"],
 
-  plugins: ["~/plugins/brevoBooking.js"],
+  //plugins: ["~/plugins/brevoBooking.js"],
 
   css: [
     "~/assets/css/vendor/bootstrap.min.css",
@@ -61,11 +61,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  vite: {
-    // build: {
-    //   minify: "esbuild",
-    // },
-  },
+  vite: {},
 
   runtimeConfig: {
     public: {

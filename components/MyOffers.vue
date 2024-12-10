@@ -72,13 +72,9 @@
                     />
                   </div>
                   <a
-                    href="#"
+                    href="https://meet.brevo.com/manuel-wittmann/analsyse-gesprach"
+                    target="_blank"
                     class="rn-btn btn-theme mt-5 d-none d-lg-inline-block"
-                    @click="
-                      openBooking(
-                        'https://meet.brevo.com/manuel-wittmann/borderless?l=analsyse-gesprach'
-                      )
-                    "
                   >
                     <span>Kostenlose Strategie-Beratung buchen</span>
                     <i data-feather="arrow-right"></i>
@@ -97,14 +93,6 @@
 <script setup>
 import { portfolios2 } from "~/data/portfolios";
 const elm = portfolios2[0];
-
-import { useNuxtApp } from "#app";
-
-const { $openBrevoBooking } = useNuxtApp();
-
-const openBooking = (url) => {
-  $openBrevoBooking(url);
-};
 </script>
 
 <style lang="scss" scoped></style>
