@@ -43,15 +43,14 @@
               Für mich stehen Qualität, Effizienz und Leidenschaft im
               Mittelpunkt. Qualität bedeutet für mich, sauberen, zuverlässigen
               Code zu schreiben, der robust und zukunftssicher ist. Effizienz
-              zeigt sich in meiner Arbeitsweise – ich entwickle schnell,
+              zeigt sich in meiner Arbeitsweise: Ich entwickle schnell,
               zielgerichtet und mit dem Blick auf das Wesentliche. Leidenschaft
-              spiegelt sich in meiner Herangehensweise wider: Ich arbeite an
+              spiegelt sich in meiner Herangehensweise: Ich arbeite an
               Projekten, die mich begeistern, und gebe alles, um deine Vision
               erfolgreich umzusetzen.
             </p>
             <p class="discription">
-              Ich bin dein Partner für eine leistungsstarke Weblösung, die dein
-              Wachstum fördert – für einen nachhaltigen Erfolg.
+              Ich bin dein Partner für eine leistungsstarke Weblösung.
             </p>
             <a
               href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"
