@@ -314,13 +314,39 @@
   </p>
   <h2>4. Plugins und Tools</h2>
   <h4 id="brevo">Terminbuchung über Brevo</h4>
-  <p>
+  <p class="mb-0">
     Für Terminbuchungen wird der Dienst von Brevo (Sendinblue GmbH, Berlin)
-    genutzt. Dabei werden die für die Terminvereinbarung notwendigen
-    personenbezogenen Daten auf Servern in Deutschland/EU verarbeitet. Mit Brevo
-    besteht ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO. Weitere Infos:
-    Datenschutzerklärung von Brevo.
+    genutzt. Im Rahmen der Terminvereinbarung werden die folgenden
+    personenbezogenen Daten erhoben und verarbeitet:
+     <ul>
+      <li>Name</li>
+      <li>E-Mail-Adresse</li>
+      <li>Telefonnummer (sofern angegeben)</li>
+      <li>gewünschtes Termin-Datum und -Uhrzeit</li>
+      <li>weitere freiwillige Angaben im Buchungsformular</li>
+    </ul>
   </p>
+  
+  <p>
+    Diese Daten werden zur Terminorganisation und zur Kontaktaufnahme im
+    Zusammenhang mit dem Termin verwendet. Die Daten werden an Brevo übermittelt
+    und auf Servern in der EU gespeichert und verarbeitet. Mit Brevo haben wir
+    einen Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO geschlossen.
+  </p>
+  <p>
+    Die Speicherung erfolgt nur solange, wie es für die Abwicklung des Termins
+    erforderlich ist und keine gesetzlichen Aufbewahrungspflichten bestehen.
+  </p>
+  <p>
+    Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung
+    vorvertraglicher Maßnahmen und Vertragserfüllung).
+  </p>
+<p>
+  Weitere Informationen zum Datenschutz bei Brevo finden Sie unter:
+  <a href="https://www.brevo.com/de/legal/privacypolicy/" target="_blank" rel="noopener">
+    https://www.brevo.com/de/legal/privacypolicy/
+  </a>
+</p>
   <h4>Font Awesome (lokales Hosting)</h4>
   <p>
     Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten Font
@@ -416,6 +442,10 @@ h3 {
 
 h2 {
   font-size: 34px;
+}
+ul li{
+  color: var(--color-body-white);
+  font-size: 16px;
 }
 
 a {
