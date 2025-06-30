@@ -34,23 +34,26 @@
               <h2 class="title">Über mich</h2>
             </div>
             <p class="discription">
-              Mit über 12 Jahren Erfahrung in der Webentwicklung und einer
-              Spezialisierung auf Vue.js entwickle ich digitale Lösungen, die
-              nicht nur technisch überzeugen, sondern auch auf Ihre
-              individuellen Bedürfnisse zugeschnitten sind.
+              Mit über 12 Jahren Erfahrung und Projekten für Mercedes und VW
+              unterstütze ich heute vor allem Unternehmen aus Automotive und
+              Smart Energy.<br />
+              Mein Fokus: Weblösungen, die Abläufe wirklich schneller und
+              digitaler machen – technisch sauber, flexibel und leicht
+              bedienbar.
             </p>
             <p class="discription">
-              Für mich stehen Qualität, Effizienz und Leidenschaft im
-              Mittelpunkt. Qualität bedeutet für mich, sauberen, zuverlässigen
-              Code zu schreiben, der robust und zukunftssicher ist. Effizienz
-              zeigt sich in meiner Arbeitsweise: Ich entwickle schnell,
-              zielgerichtet und mit dem Blick auf das Wesentliche. Leidenschaft
-              spiegelt sich in meiner Herangehensweise: Ich arbeite an
-              Projekten, die mich begeistern, und gebe alles, um deine Vision
-              erfolgreich umzusetzen.
+              Ich setze auf Qualität und Effizienz: Sauberer Code, der lange
+              hält und sich an neue Anforderungen anpassen lässt. Ich arbeite
+              schnell, zielgerichtet und immer mit dem Blick aufs Wesentliche.
             </p>
             <p class="discription">
-              Ich bin dein Partner für eine leistungsstarke Weblösung.
+              Was mich ausmacht: Ich bringe Konzern-Erfahrung und pragmatische
+              Lösungen zusammen, damit Digitalisierung bei dir nicht zur
+              Dauerbaustelle wird, sondern einfach funktioniert.
+            </p>
+            <p class="discription">
+              Du suchst einen Partner, der Technik und Praxis verbindet? Dann
+              lass uns sprechen.
             </p>
             <a
               href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"

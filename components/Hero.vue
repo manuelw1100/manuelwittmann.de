@@ -12,14 +12,13 @@
                   >Vue | Headless-CMS | Beratung & Entwicklung</span
                 >
                 <h1 class="title">
-                  <span>Weblösungen</span> für dein Wachstum<br />
+                  <span>Weblösungen</span> die dich schneller machen<br />
                 </h1>
 
                 <div>
                   <p class="description">
-                    Moderne Weblösungen für Automotive & Smart Energy –
-                    performant und intuitiv. Profitiere von mehr als 12 Jahren
-                    Erfahrung.
+                    Für Automotive & Smart Energy – modern, skalierbar,
+                    intuitiv.<br />Über 12 Jahre Erfahrung aus der Praxis.
                   </p>
                   <a
                     href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"

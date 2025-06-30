@@ -59,17 +59,7 @@
                     </div>
                   </div>
                   <div class="seperator pb-1"></div>
-                  <p
-                    class="discription"
-                    v-html="truncateText(isLong[i], elm.description)"
-                  />
-                  <a
-                    class="read-more"
-                    href="#"
-                    @click.prevent="toogleIsLong(i)"
-                  >
-                    {{ !isLong[i] ? "Weiterlesen" : "Weniger" }}
-                  </a>
+                  <p class="discription" v-html="elm.description" />
                 </div>
               </div>
             </div>

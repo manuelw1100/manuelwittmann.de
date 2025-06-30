@@ -312,7 +312,32 @@
     Wenn die SSL- bzw. TLS-Verschl&uuml;sselung aktiviert ist, k&ouml;nnen die
     Daten, die Sie an uns &uuml;bermitteln, nicht von Dritten mitgelesen werden.
   </p>
-  <h2 id="datenerfassung">4. Datenerfassung auf dieser Website</h2>
+  <h2>4. Plugins und Tools</h2>
+  <h4 id="brevo">Terminbuchung über Brevo</h4>
+  <p>
+    Für Terminbuchungen wird der Dienst von Brevo (Sendinblue GmbH, Berlin)
+    genutzt. Dabei werden die für die Terminvereinbarung notwendigen
+    personenbezogenen Daten auf Servern in Deutschland/EU verarbeitet. Mit Brevo
+    besteht ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO. Weitere Infos:
+    Datenschutzerklärung von Brevo.
+  </p>
+  <h4>Font Awesome (lokales Hosting)</h4>
+  <p>
+    Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten Font
+    Awesome. Font Awesome ist lokal installiert. Eine Verbindung zu Servern von
+    Fonticons, Inc. findet dabei nicht statt.
+  </p>
+  <p>
+    Weitere Informationen zu Font Awesome finden Sie in der
+    Datenschutzerkl&auml;rung f&uuml;r Font Awesome unter:
+    <a
+      href="https://fontawesome.com/privacy"
+      target="_blank"
+      rel="noopener noreferrer"
+      >https://fontawesome.com/privacy</a
+    >.
+  </p>
+  <h2 id="datenerfassung">5. Datenerfassung auf dieser Website</h2>
   <h3>Kontaktformular</h3>
   <p>
     Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre
@@ -364,19 +389,6 @@
     Zwingende gesetzliche Bestimmungen &ndash; insbesondere gesetzliche
     Aufbewahrungsfristen &ndash; bleiben unber&uuml;hrt.
   </p>
-  <h2>5. Plugins und Tools</h2>
-  <h3>Font Awesome (lokales Hosting)</h3>
-  <p>
-    Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten Font
-    Awesome. Font Awesome ist lokal installiert. Eine Verbindung zu Servern von
-    Fonticons, Inc. findet dabei nicht statt.
-  </p>
-  <p>
-    Weitere Informationen zu Font Awesome finden Sie in der
-    Datenschutzerkl&auml;rung f&uuml;r Font Awesome unter:
-    <a href="https://fontawesome.com/privacy" target="_blank"
-      rel="noopener noreferrer">https://fontawesome.com/privacy</a>.
-  </p>
   <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
 </template>
 <script setup lang="ts">
@@ -386,18 +398,24 @@ const rc = useRuntimeConfig();
 h2,
 h3,
 h4 {
-
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
   color: var(--color-body-white);
   margin-top: 15px;
   margin-bottom: 0;
-
 }
 
 h4 {
   font-size: 20px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 34px;
 }
 
 a {
@@ -410,6 +428,10 @@ p {
   color: var(--color-body-white);
   margin-bottom: 30px;
   padding-right: 10%;
+}
+
+#brevo {
+  scroll-margin-top: 165px; /* Passe die px-Zahl an deine Header-Höhe an */
 }
 
 #datenerfassung {

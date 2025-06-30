@@ -56,29 +56,64 @@
                         </div>
                       </div>
                     </div>
-                    <a href="#" class="rn-btn btn-theme mt-5 d-lg-none">
-                      <span>Kostenlose Strategie-Beratung buchen</span>
+                    <div class="d-lg-none">
+                      <p class="discription mt-5 mb-0 h4">
+                        <em
+                          >"Er hat nicht nur mit seiner Expertise überzeugt,<br />
+                          sondern auch durch seine Bereitschaft, Wissen zu
+                          teilen."</em
+                        >
+                      </p>
+                      <p class="discription mt-1 mb-0">
+                        <small
+                          >Marco Kranz, Mercedes-Benz Tech Innovation</small
+                        >
+                      </p>
+                    </div>
+                    <a
+                      href="https://meet.brevo.com/manuel-wittmann/analsyse-gesprach"
+                      target="_blank"
+                      class="rn-btn btn-theme mt-5 d-lg-none"
+                    >
+                      <span>Kostenlosen Potenzial-Check buchen</span>
                       <i data-feather="arrow-right"></i>
                     </a>
                   </div>
                 </div>
                 <div class="col-lg-7 col-xl-7">
-                  <div class="thumbnail">
-                    <nuxt-img
-                      :width="800"
-                      :height="600"
-                      :src="elm.imgSrc"
-                      alt="image"
-                    />
+                  <div class="inner">
+                    <div class="thumbnail">
+                      <nuxt-img
+                        :width="800"
+                        :height="600"
+                        :src="elm.imgSrc"
+                        alt="image"
+                      />
+                    </div>
+
+                    <div class="d-none d-lg-inline-block">
+                      <p class="discription mt-5 mb-0 h4">
+                        <em
+                          >"Er hat nicht nur mit seiner Expertise überzeugt,<br />
+                          sondern auch durch seine Bereitschaft, Wissen zu
+                          teilen."</em
+                        >
+                      </p>
+                      <p class="discription mt-2 mb-0">
+                        <small
+                          >Marco Kranz, Mercedes-Benz Tech Innovation</small
+                        >
+                      </p>
+                    </div>
+                    <a
+                      href="https://meet.brevo.com/manuel-wittmann/analsyse-gesprach"
+                      target="_blank"
+                      class="rn-btn btn-theme mt-5 d-none d-lg-inline-block"
+                    >
+                      <span>Kostenlosen Potenzial-Check buchen</span>
+                      <i data-feather="arrow-right"></i>
+                    </a>
                   </div>
-                  <a
-                    href="https://meet.brevo.com/manuel-wittmann/analsyse-gesprach"
-                    target="_blank"
-                    class="rn-btn btn-theme mt-5 d-none d-lg-inline-block"
-                  >
-                    <span>Kostenlose Strategie-Beratung buchen</span>
-                    <i data-feather="arrow-right"></i>
-                  </a>
                 </div>
               </div>
             </div>
