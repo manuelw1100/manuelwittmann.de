@@ -1,5 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
@@ -24,11 +23,26 @@ export default defineNuxtConfig({
         lang: "de",
       },
       meta: [
-        ...(process.env.NODE_ENV === "production"
+        {
+          property: "og:image",
+          content: "/assets/images/about/OG-Image.jpg",
+        },
+        {
+          property: "og:image:width",
+          content: "1200",
+        },
+        {
+          property: "og:image:height",
+          content: "630",
+        },
+      ],
+      script: [
+        ...(process.env.NUXT_PUBLIC_APP_URL === "https://manuelwittmann.de"
           ? [
               {
-                name: "google-site-verification",
-                content: "YOUR-VERIFICATION-CODE",
+                src: "https://plausible.manwitt.de/js/script.js",
+                defer: true,
+                "data-domain": "manuelwittmann.de",
               },
             ]
           : []),
