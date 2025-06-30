@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up SSH
-        uses: webfactory/ssh-agent@v0.7.0
+        uses: webfactory/ssh-agent@v0.9.1
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
@@ -40,6 +40,7 @@ jobs:
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_PASS=${{ secrets.NUXT_MAIL_PASS }}' >> /var/www/website/prod/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_TO=${{ secrets.NUXT_MAIL_TO }}' >> /var/www/website/prod/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_PHONE=${{ secrets.NUXT_PHONE }}' >> /var/www/website/prod/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_PUBLIC_APP_URL=https://manuelwittmann.de' >> /var/www/website/prod/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NODE_ENV=production' >> /var/www/website/prod/frontend/.env"
 
       - name: Build Docker without Cache
