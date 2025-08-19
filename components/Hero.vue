@@ -9,16 +9,17 @@
             <div class="content">
               <div class="inner">
                 <span class="subtitle"
-                  >Vue | Headless-CMS | Beratung & Entwicklung</span
+                  >Schnell umgesetzt +Erfolgscheck +Festpreis</span
                 >
                 <h1 class="title">
-                  <span>Weblösungen</span> die dich schneller machen<br />
+                  <span>Weblösungen</span> für interne & externe Abläufe<br />
                 </h1>
 
                 <div>
                   <p class="description">
-                    Für Automotive & Smart Energy – modern, skalierbar,
-                    intuitiv.<br />Über 12 Jahre Erfahrung aus der Praxis.
+                    Modern, skalierbar und intuitiv – für Automotive & Smart
+                    Energy.<br />Über 12 Jahre Erfahrung aus Projekten für
+                    Mercedes und VW.
                   </p>
                   <a
                     href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"

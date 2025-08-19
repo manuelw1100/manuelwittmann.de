@@ -34,26 +34,33 @@
               <h2 class="title">Über mich</h2>
             </div>
             <p class="discription">
-              Mit über 12 Jahren Erfahrung und Projekten für Mercedes und VW
-              unterstütze ich heute vor allem Unternehmen aus Automotive und
-              Smart Energy.<br />
-              Mein Fokus: Weblösungen, die Abläufe wirklich schneller und
-              digitaler machen – technisch sauber, flexibel und leicht
-              bedienbar.
+              Seit über 12 Jahren entwickle ich Weblösungen, unter anderem für
+              Mercedes und VW. Heute unterstütze ich vor allem Unternehmen aus
+              Automotive und Smart Energy.
             </p>
             <p class="discription">
-              Ich setze auf Qualität und Effizienz: Sauberer Code, der lange
-              hält und sich an neue Anforderungen anpassen lässt. Ich arbeite
-              schnell, zielgerichtet und immer mit dem Blick aufs Wesentliche.
+              Mein Fokus: Abläufe digitalisieren, die oft noch manuell oder in
+              Insellösungen hängen. Das zeigt sich an zwei Stellen:<br />
+
+              <strong>Intern:</strong> Workflows im Team, Produktions- oder
+              Serviceprozesse.<br />
+
+              <strong>Extern:</strong> Kundenportale, digitale Services oder
+              Schnittstellen zu Partnern. <br /><br />So entstehen Lösungen, die
+              wirklich schneller machen, technisch sauber und leicht bedienbar.
+            </p>
+
+            <p class="discription">
+              Was mich ausmacht: Konzern-Erfahrung kombiniert mit pragmatischen
+              Lösungen, damit Digitalisierung nicht zur Dauerbaustelle wird,
+              sondern einfach funktioniert.
             </p>
             <p class="discription">
-              Was mich ausmacht: Ich bringe Konzern-Erfahrung und pragmatische
-              Lösungen zusammen, damit Digitalisierung bei dir nicht zur
-              Dauerbaustelle wird, sondern einfach funktioniert.
-            </p>
-            <p class="discription">
-              Du suchst einen Partner, der Technik und Praxis verbindet? Dann
-              lass uns sprechen.
+              <strong
+                >Du suchst einen Partner, der Technik und Praxis
+                verbindet?</strong
+              >
+              Dann lass uns sprechen.
             </p>
             <a
               href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"
