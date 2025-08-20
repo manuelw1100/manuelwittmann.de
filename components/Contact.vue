@@ -35,7 +35,8 @@
             </div>
             <div class="social-area">
               <div class="name">
-                Oder vernetze dich direkt mit mir auf LinkedIn.:
+                Oder vernetze dich direkt<br />
+                mit mir auf LinkedIn.:
               </div>
               <div class="social-icone">
                 <a
