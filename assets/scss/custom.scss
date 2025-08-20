@@ -1655,10 +1655,13 @@ li {
         line-height: 65px !important;
   }
    @media #{$sm-layout} {
-        line-height: 62px !important;
+        line-height: 60px !important;
+  }
+   @media #{$small-mobile} {
+        line-height: 45px !important;
   }
   small {
-    font-size: 0.75em;
+    font-size: 0.77em;
     font-style: italic;
     //line-height: 70px;
   }
