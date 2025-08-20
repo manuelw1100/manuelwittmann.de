@@ -377,22 +377,29 @@
   }
 
   .experience-image {
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
-    transition: var(--transition);
-    overflow: hidden;
+    // width: 250px;
+    // height: auto;
+    // border-radius: 8px;
+    // transition: var(--transition);
+    // overflow: hidden;
+    flex: 0 0 180px;       // feste Spaltenbreite (anpassen: 64–120px je nach Design)
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 
     @media #{$lg-layout} {
-      flex-basis: 50%;
+      flex-basis: 25%;
+      flex: 0 0 140px; 
     }
 
     @media #{$md-layout} {
       max-width: 100%;
+      display: none;
     }
 
     @media #{$sm-layout} {
       max-width: 100%;
+      display: none;
     }
 
     img {
@@ -409,12 +416,15 @@
 
   .experience-left {
     display: flex;
-    align-items: center;
+    //align-items: center;
+    align-items: stretch;
+    gap: 24px;
     flex-basis: 80%;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
 
     @media #{$lg-layout} {
-      flex-basis: 70%;
+      //flex-basis: 70%;
+      flex-basis: 90%;
     }
 
     @media #{$md-layout} {
@@ -426,17 +436,28 @@
     }
   }
 
+  .experience-step {
+  margin: 0;                
+  line-height: 1;            
+  display: block;
+  color: rgba(0,0,0,0.08);
+  font-weight: bold;
+
+  font-size: 3.5rem;
+  }
+
   .experience-center {
     padding-left: 30px;
 
     @media #{$lg-layout} {
       padding-left: 20px;
-      flex-basis: 50%;
+      flex-basis: 80%;
     }
 
     @media #{$md-layout} {
       padding-left: 0;
       padding-top: 25px;
+      padding-right: 10px;
     }
 
     @media #{$sm-layout} {
@@ -495,7 +516,8 @@
     text-align: right;
 
     @media #{$lg-layout} {
-      flex-basis: 30%;
+      //flex-basis: 30%;
+      flex-basis: 10%;
     }
 
     @media #{$md-layout} {

@@ -1645,3 +1645,34 @@ li {
     }
   }
 }
+
+.rn-skill-area {
+  .description {
+    padding: 50px 0 10px 0;
+    color: var(--color-body-white);
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+     @media #{$sm-layout} {
+      width: 90%;
+    }
+  }
+}
+
+.skill-style-1 {
+  padding: 0 12vw;
+  margin-top: 20px;
+
+  @media #{$md-layout} {
+      padding: 0 80px;
+  }
+    @media #{$sm-layout} {
+       padding: 0 35px;
+    }
+  
+  li {
+    box-shadow: var(--shadow-4);
+  }
+}
+    

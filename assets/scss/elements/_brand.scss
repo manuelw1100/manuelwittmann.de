@@ -24,19 +24,23 @@
         cursor: pointer;
         margin-top: 0;
         margin-bottom: 40px;
-        padding: 20px 30px;
-        flex-basis: 18%; //20%
-        padding: 35px 30px;
-        min-height: 130px;
+        //padding: 20px 30px;
+        flex-basis: 21%; //20%
+        padding: 25px 20px;
+        //min-height: 130px;
         
         @media #{$md-layout} {
-            flex-basis: 40%;
+            flex-basis: 26%;//40%;
+            margin-bottom: 25px;
+             margin-right: 25px;
         }
         @media #{$sm-layout} {
-            flex-basis: 40%;
+            flex-basis: 27%;//40%;
+             margin-bottom: 20px;
+             margin-right: 20px;
         }
         @media #{$small-mobile} {
-            flex-basis: 80%;
+            flex-basis: 38%;//80%;
         }
         &::before{
             content: '';

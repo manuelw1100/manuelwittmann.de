@@ -5,12 +5,12 @@
       <Hero />
       <Challenges />
       <Features />
+      <MyOffers />
       <Testimonials />
       <div class="section-separator"></div>
-      <MyOffers />
       <About />
-      <Portfolio />
       <Skills />
+      <Portfolio />
       <Contact />
     </div>
     <Footer />

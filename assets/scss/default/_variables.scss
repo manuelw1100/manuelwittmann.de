@@ -14,6 +14,9 @@
   --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
   --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
   --shadow-3: 10px 10px 19px #cccccc, -10px -10px 19px #b3b3b3;
+  --shadow-4: 3px 3px 6px #cccccc, -3px -3px 6px #f0f0f0;
+
+
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset,
     -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
 
@@ -23,7 +26,8 @@
   --color-primary-gradient-from: #008BA1;
   --color-primary-gradient-to: #00AACC;
   // Gradient
-  --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+  --gradient-box-w: linear-gradient(145deg, #e6ecf0, #ffffff);
+ 
   --gradient-red-hover: linear-gradient(
     145deg,
     var(--color-primary-gradient-from),

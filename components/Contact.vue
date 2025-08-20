@@ -7,8 +7,8 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center">
-            <span class="subtitle">Fragen? Interesse?</span>
-            <h2 class="title">Schreibe mir</h2>
+            <span class="subtitle">Noch Fragen?</span>
+            <h2 class="title">Jetzt Kontakt aufnehmen</h2>
           </div>
         </div>
       </div>
@@ -29,17 +29,14 @@
             </div> -->
             <div class="description jhg">
               <p>
-                Hier kannst du mit mir in Kontakt treten. Ich freue mich über
-                dein Interesse und stehe gerne zur Verfügung.
-              </p>
-              <p>
-                Schreibe mir einfach, um deine Anliegen, Fragen oder
-                Projektideen zu besprechen. Ich bemühe mich, dir so schnell wie
-                möglich zu antworten.
+                Schreib mir einfach, wenn du Fragen hast oder ein Projekt
+                besprechen willst. Ich melde mich schnellstmöglich zurück.
               </p>
             </div>
             <div class="social-area">
-              <div class="name">Du findest mich auch hier:</div>
+              <div class="name">
+                Oder vernetze dich direkt mit mir auf LinkedIn.:
+              </div>
               <div class="social-icone">
                 <a
                   v-for="(elm, i) in socials.slice(0, 3)"

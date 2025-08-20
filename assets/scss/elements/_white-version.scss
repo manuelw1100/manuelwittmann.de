@@ -540,8 +540,9 @@
   // about area
   .rn-about-area {
     .image-area {
-      box-shadow: var(--shadow-white-3);
-      background: var(--gradient-box-w);
+      //box-shadow: var(--shadow-white-3);
+      // background: var(--gradient-box-w);
+      box-shadow: none;
     }
 
     .contant {
@@ -1895,6 +1896,7 @@
     }
 
     .rn-skill-area {
+  
       .inner {
         .skill-share-inner {
           span {

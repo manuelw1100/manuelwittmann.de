@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="row row--25 mt_md--10 mt_sm--10">
+      <div class="row row--25 mt_md--10 mt_sm--10 pb-5">
         <!-- Start Single Service -->
         <div
           v-for="(elm, i) in features"
