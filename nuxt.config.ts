@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       meta: [
         {
           property: "og:image",
-          content: "/assets/images/about/OG-Image.jpg",
+          content: "/assets/images/about/og-image.jpg",
         },
         {
           property: "og:image:width",

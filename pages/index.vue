@@ -30,9 +30,9 @@ useHead({
   ],
 });
 useSeoMeta({
-  title: "Weblösungen Beratung & Entwicklung | Vue Freelancer | CMS",
+  title: "Freelancer für Weblösungen | Vue & Headless CMS & mehr",
   description:
-    "Maßgeschneiderte Weblösungen für Automotive & Smart Energy. Ich bin ein erfahrener Vue Freelancer und Frontend-Entwickler, spezialisiert auf Vue-Entwicklung, Headless CMS und moderne Frontend-Technologien – profitiere von über 12 Jahren Expertise für deinen digitalen Erfolg.",
+    "Abläufe optimieren mit Vue, Headless CMS, Node.js & Automatisierungstools wie n8n. Schnell, effizient & zum Festpreis. Über 12 Jahre Erfahrung.",
 });
 
 import Header from "~/components/header/Header.vue";
