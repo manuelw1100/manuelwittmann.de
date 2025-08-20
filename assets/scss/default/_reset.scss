@@ -163,8 +163,9 @@ img {
     -ms-interpolation-mode: bicubic;
     border: 0;
     vertical-align: middle;
-    max-width: 85%;
+    max-width: 100%;//85%;
     height: auto;
+    //opacity: 0.9;
 }
 
 svg:not(:root) {
