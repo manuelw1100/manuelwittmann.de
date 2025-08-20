@@ -9,17 +9,20 @@
             <div class="content">
               <div class="inner">
                 <span class="subtitle"
-                  >Schnell umgesetzt +Erfolgscheck +Festpreis</span
+                  >Schnell umgesetzt +Erfolgscheck&nbsp;+Festpreis</span
                 >
                 <h1 class="title">
-                  <span>Weblösungen</span> für interne & externe Abläufe<br />
+                  <span>Weblösungen</span> für <br /><small
+                    >interne & externe</small
+                  ><br />
+                  Abläufe<br />
                 </h1>
 
                 <div>
                   <p class="description">
-                    Modern, skalierbar und intuitiv – für Automotive & Smart
-                    Energy.<br />Über 12 Jahre Erfahrung aus Projekten für
-                    Mercedes und VW.
+                    Modern, skalierbar und intuitiv – für&nbsp;Automotive &amp;
+                    Smart Energy.<br />
+                    Über 12 Jahre Erfahrung aus Projekten für Mercedes und VW.
                   </p>
                   <a
                     href="https://meet.brevo.com/manuel-wittmann/30-minutiges-meeting"

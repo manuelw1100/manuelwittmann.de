@@ -1646,6 +1646,24 @@ li {
   }
 }
 
+.hero .title { 
+  line-height: 70px !important;
+   @media #{$lg-layout} {
+      line-height: 67px !important;
+  }
+   @media #{$md-layout} {
+        line-height: 65px !important;
+  }
+   @media #{$sm-layout} {
+        line-height: 62px !important;
+  }
+  small {
+    font-size: 0.75em;
+    font-style: italic;
+    //line-height: 70px;
+  }
+}
+
 .rn-skill-area {
   .description {
     padding: 50px 0 10px 0;
