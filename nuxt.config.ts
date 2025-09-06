@@ -4,8 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["nuxt-particles", "@nuxt/image"],
 
-  //plugins: ["~/plugins/brevoBooking.js"],
-
   css: [
     "~/assets/css/vendor/bootstrap.min.css",
     // "~/assets/css/vendor/slick.css",
