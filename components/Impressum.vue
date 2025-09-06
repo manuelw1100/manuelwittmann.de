@@ -13,13 +13,6 @@
       E-Mail: ✉️<DataSplitter :data="rc.public.email" />
     </p>
 
-    <!-- <h3 class="mt--50">Bildnachweise</h3>
-    <p class="discription">
-      Kontaktpage: ©
-      <a href="https://de.123rf.com/profile_captainvector">captainvector</a>,
-      <a href="https://www.123rf.com/free-images/">123RF Free Images</a>
-    </p> -->
-
     <p class="discription mt--40">
       Quelle: <a href="https://www.e-recht24.de">eRecht24</a>
     </p>
