@@ -41,6 +41,7 @@ jobs:
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_MAIL_TO=${{ secrets.NUXT_MAIL_TO }}' >> /var/www/website/test/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_PHONE=${{ secrets.NUXT_PHONE }}' >> /var/www/website/test/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_PUBLIC_APP_URL=https://test.manuelwittmann.de' >> /var/www/website/prod/frontend/.env"
+          ssh deployuser@v2202403148867261122.powersrv.de "echo 'NUXT_STATISTICS_PAGE_URL=${{ secrets.NUXT_STATISTICS_PAGE_URL }}' >> /var/www/website/test/frontend/.env"
           ssh deployuser@v2202403148867261122.powersrv.de "echo 'NODE_ENV=test' >> /var/www/website/test/frontend/.env"
 
       - name: Build Docker without Cache

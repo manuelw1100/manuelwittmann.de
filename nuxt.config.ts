@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         ...(process.env.NUXT_PUBLIC_APP_URL === "https://manuelwittmann.de"
           ? [
               {
-                src: "https://plausible.manwitt.de/js/script.js",
+                src: process.env.NUXT_STATISTICS_PAGE_URL,
                 defer: true,
                 "data-domain": "manuelwittmann.de",
               },
