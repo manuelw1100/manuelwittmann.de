@@ -126,9 +126,9 @@
 
   <p>
     Telefon:
-    <DataSplitter :data="rc.public.phone" /><br />
+    📞<DataSplitter :data="rc.public.phone" /><br />
     E-Mail:
-    <DataSplitter :data="rc.public.email" /><br />
+    ✉️<DataSplitter :data="rc.public.email" /><br />
   </p>
   <p>
     Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die

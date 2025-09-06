@@ -1,7 +1,7 @@
 <template>
-  <span class="prevent-copy" v-for="(digit, index) in splitData" :key="index">{{
-    digit
-    }}</span>
+  <span class="prevent-copy" v-for="(digit, index) in splitData" :key="index"
+    >{{ digit }}<span v-if="index < splitData.length - 1">&#8203;</span></span
+  >
 </template>
 <script setup lang="ts">
 const props = defineProps({

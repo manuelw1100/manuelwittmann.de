@@ -8,11 +8,9 @@
 
     <h2 class="h3 mt--40">Kontakt</h2>
     <p class="discription">
-      Telefon:
-      <DataSplitter :data="rc.public.phone" />
+      Telefon: 📞<DataSplitter :data="rc.public.phone" />
       <br />
-      E-Mail:
-      <DataSplitter :data="rc.public.email" />
+      E-Mail: ✉️<DataSplitter :data="rc.public.email" />
     </p>
 
     <!-- <h3 class="mt--50">Bildnachweise</h3>
