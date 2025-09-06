@@ -17,3 +17,10 @@ Eine persönliche Portfolio-Webseite, die meine Positionierung, meine Arbeitswei
 ## Live Demo
 
 👉 [www.manuelwittmann.de](https://www.manuelwittmann.de)
+
+## Deployment
+
+Das Projekt ist auf einer VM deployt und trennt zwischen Staging- und Produktionsumgebung.
+
+- Staging: Tests und Vorschau vor Livegang
+- Production: Live-Umgebung
