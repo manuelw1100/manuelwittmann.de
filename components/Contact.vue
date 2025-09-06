@@ -243,10 +243,11 @@ const isFormInvalid = computed(() => {
   return hasEmailError || hasNameError || hasFirstnameError;
 });
 
-//todo: put values in env file
 const submitForm = async () => {
-  const portalId = "47718954";
-  const formId = "dbc43b64-5316-40ff-8fdd-8ae2f5fe290f";
+  const rc = useRuntimeConfig();
+
+  const portalId = rc.public.portalId;
+  const formId = rc.public.formId;
   const hubspotUrl = `https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
 
   send.value = true;
@@ -283,8 +284,6 @@ const submitForm = async () => {
     send.value = false;
   }
 };
-
-//portalId: 47718954, guid: "dbc43b64-5316-40ff-8fdd-8ae2f5fe290f"
 </script>
 
 <style lang="scss" scoped></style>
